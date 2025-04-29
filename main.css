@@ -1,0 +1,154 @@
+/*Color Scheme*/
+:root {
+    --primiary: #36374d;
+    --secondary: #ffffff;
+    --accent: #ff596a;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--secondary);
+    color: var(--primiary)
+}
+
+/*Header*/
+.header {
+    height: 100vh; 
+}
+.header .headerBox{
+    width: 49vw;
+    height: 100%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header .headerBox h1, p, h3{
+    width: 90%;
+}
+.header .headerBox h3{
+    font-size: 12px;
+}
+.header .headerImage{
+    width: 49vw;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .headerImage img{
+    width: 80%;
+}
+
+/*Packages section*/
+.packages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.packages div{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.packages div h1, p{
+    margin: 5px;
+}
+.packages ul{
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+    column-count: 3;
+}
+.packages ul li{
+    background-color: var(--primiary);
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 20vw;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+}
+.packages ul li a{
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+/*Footer*/
+.footer{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer img{
+    width: 10vw;
+}
+.footer a{
+    color: #36374d;
+    text-decoration: none;
+}
+.footer h3{
+    font-size: 8px;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 600px) {
+    /*Header*/
+    .header{
+        height: auto;
+    }
+    .header .headerBox{
+        float: none;
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .header .headerImage{
+        float: none;
+        width: 100vw;
+        height: 20vh;
+        margin-top: 10vh;
+    }
+
+    /*Packages*/
+    .packages div{
+        width: 100vw;
+    }
+    .packages ul{
+        column-count: 2;
+    }
+    .packages ul li{
+        width: 40vw;
+    }
+    
+    /*Footer*/
+    .footer{
+        height: 30vh;
+    }
+
+    /*General*/
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+
+}
+  
