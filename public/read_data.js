@@ -5,14 +5,30 @@ fetch("package_urls.json")
   })
   .then(data => {
     const list = document.getElementById("package-list");
-    for (const [name, url] of Object.entries(data)) {
-      const item = document.createElement("li");
-      const link = document.createElement("a");
-      link.href = url;
-      link.textContent = name;
-      link.target = "_blank";
-      item.appendChild(link);
-      list.appendChild(item);
-    }
+    data.forEach(pkg => {
+      //Div
+      const packageDiv = document.createElement("div");
+      packageDiv.classList.add("package-item");
+
+      //Package name
+      const nameElement = document.createElement("h3");
+      nameElement.textContent = pkg.name;
+      packageDiv.appendChild(nameElement);
+
+      //Issues count
+      const issuesText = pkg.issues !== null ? `${pkg.issues} open issues` : "No GitHub Repo";
+      const issuesElement = document.createElement("p");
+      issuesElement.textContent = issuesText;
+      packageDiv.appendChild(issuesElement);
+
+      //Link
+      const linkElement = document.createElement("a");
+      linkElement.href = pkg.url;
+      linkElement.textContent = "Go to Package Page";
+      linkElement.target = "_blank";
+      packageDiv.appendChild(linkElement);
+
+      list.appendChild(packageDiv);
+    });
   })
   .catch(error => console.error("Error loading JSON:", error));

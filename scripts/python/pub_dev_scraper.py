@@ -1,11 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
-import time
-import random
 import parsedatetime
 from dateutil.relativedelta import relativedelta
-import csv
 import json
 
 
@@ -14,7 +11,7 @@ BASE_URL = "https://pub.dev"
 # Settings
 DOWNLOAD_THRESHOLD = 100_000  # Packages with more than 100000 downloads
 MAX_PAGES = 100 
-package_urls = {}
+package_urls = []
 
 def parse_downloads(download_text):
     """Convert text like '123k' or '2M' to integer."""
@@ -38,13 +35,48 @@ def is_old(date):
     six_months_ago = datetime.now() - relativedelta(months=12)
     return date < six_months_ago
 
+def pull_github_link(url):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+    except requests.RequestException as e:
+        print(f"Error fetching the page: {e}")
+        return None
+
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    for a_tag in soup.find_all('a', href=True):
+        href = a_tag['href']
+        parent = a_tag.find_parent()
+        if href.startswith("https://github.com/") and parent and 'Repository' in parent.get_text():
+            return href
+
+    print("GitHub repository link not found.")
+    return None
+
+def pull_github_issues(url):
+    issues = "0"
+    try:
+        response = requests.get(pull_github_link(url))
+        response.raise_for_status()
+    except requests.RequestException as e:
+        print(f"Error fetching the page: {e}")
+        return None
+
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    spans = soup.find(id="issues-repo-tab-count")
+    if spans:
+        issues = spans.get_text(strip=True)
+    
+    return issues
+
 def check_card(card):
     try:
         name = card.select_one(".packages-title > a").text.strip()
         package_url = BASE_URL + card.select_one(".packages-title > a")["href"]
 
         stats = card.select(".packages-score-value-number")
-
         downloads_text = stats[2].text.strip()
         downloads = parse_downloads(downloads_text)
 
@@ -52,7 +84,11 @@ def check_card(card):
         date = parse_date("".join(lastupdate[0]))
 
         if downloads > DOWNLOAD_THRESHOLD and is_old(date):
-            package_urls[name] = package_url
+            package_urls.append({
+                "name": name,
+                "url": package_url,
+                "issues": pull_github_issues(package_url) 
+            })
 
     except Exception as e:
         print(f"Error parsing a package: {e}")
@@ -72,15 +108,6 @@ def scrape_pub():
 
         for card in package_cards:
             check_card(card)
-            #time.sleep(random.uniform(0.5, 1.5)) 
-
-def save_to_csv(filename="././data/package_urls.csv"):
-    """Save the package_urls dictionary to a CSV file."""
-    with open(filename, mode='w', newline='', encoding='utf-8') as csv_file:
-        writer = csv.writer(csv_file)
-        writer.writerow(["Package Name", "URL"])
-        for name, url in package_urls.items():
-            writer.writerow([name, url])
 
 def save_to_json(filename="./data/package_urls.json"):
     """Save the package_urls dictionary to a JSON file."""
