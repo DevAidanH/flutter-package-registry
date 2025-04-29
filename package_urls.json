@@ -1,198 +1,982 @@
-{
-    "json_annotation": "https://pub.dev/packages/json_annotation",
-    "xml": "https://pub.dev/packages/xml",
-    "checked_yaml": "https://pub.dev/packages/checked_yaml",
-    "webkit_inspection_protocol": "https://pub.dev/packages/webkit_inspection_protocol",
-    "sprintf": "https://pub.dev/packages/sprintf",
-    "shelf_packages_handler": "https://pub.dev/packages/shelf_packages_handler",
-    "frontend_server_client": "https://pub.dev/packages/frontend_server_client",
-    "pool": "https://pub.dev/packages/pool",
-    "node_preamble": "https://pub.dev/packages/node_preamble",
-    "nested": "https://pub.dev/packages/nested",
-    "built_collection": "https://pub.dev/packages/built_collection",
-    "plugin_platform_interface": "https://pub.dev/packages/plugin_platform_interface",
-    "sync_http": "https://pub.dev/packages/sync_http",
-    "mustache_template": "https://pub.dev/packages/mustache_template",
-    "shelf_proxy": "https://pub.dev/packages/shelf_proxy",
-    "vm_snapshot_analysis": "https://pub.dev/packages/vm_snapshot_analysis",
-    "completion": "https://pub.dev/packages/completion",
-    "cupertino_icons": "https://pub.dev/packages/cupertino_icons",
-    "state_notifier": "https://pub.dev/packages/state_notifier",
-    "csv": "https://pub.dev/packages/csv",
-    "qr_flutter": "https://pub.dev/packages/qr_flutter",
-    "ci": "https://pub.dev/packages/ci",
-    "diff_match_patch": "https://pub.dev/packages/diff_match_patch",
-    "universal_io": "https://pub.dev/packages/universal_io",
-    "scrollable_positioned_list": "https://pub.dev/packages/scrollable_positioned_list",
-    "cli_config": "https://pub.dev/packages/cli_config",
-    "system_info2": "https://pub.dev/packages/system_info2",
-    "nm": "https://pub.dev/packages/nm",
-    "retry": "https://pub.dev/packages/retry",
-    "ini": "https://pub.dev/packages/ini",
-    "json2yaml": "https://pub.dev/packages/json2yaml",
-    "random_string": "https://pub.dev/packages/random_string",
-    "functional_data": "https://pub.dev/packages/functional_data",
-    "chunked_stream": "https://pub.dev/packages/chunked_stream",
-    "pubspec_lock": "https://pub.dev/packages/pubspec_lock",
-    "validators2": "https://pub.dev/packages/validators2",
-    "vin_decoder": "https://pub.dev/packages/vin_decoder",
-    "global_assert": "https://pub.dev/packages/global_assert",
-    "recase": "https://pub.dev/packages/recase",
-    "google_fonts": "https://pub.dev/packages/google_fonts",
-    "tuple": "https://pub.dev/packages/tuple",
-    "hive": "https://pub.dev/packages/hive",
-    "shimmer": "https://pub.dev/packages/shimmer",
-    "path_drawing": "https://pub.dev/packages/path_drawing",
-    "auto_size_text": "https://pub.dev/packages/auto_size_text",
-    "flutter_staggered_grid_view": "https://pub.dev/packages/flutter_staggered_grid_view",
-    "flutter_keyboard_visibility_platform_interface": "https://pub.dev/packages/flutter_keyboard_visibility_platform_interface",
-    "flutter_keyboard_visibility": "https://pub.dev/packages/flutter_keyboard_visibility",
-    "flutter_keyboard_visibility_linux": "https://pub.dev/packages/flutter_keyboard_visibility_linux",
-    "flutter_keyboard_visibility_macos": "https://pub.dev/packages/flutter_keyboard_visibility_macos",
-    "flutter_keyboard_visibility_windows": "https://pub.dev/packages/flutter_keyboard_visibility_windows",
-    "flutter_keyboard_visibility_web": "https://pub.dev/packages/flutter_keyboard_visibility_web",
-    "gtk": "https://pub.dev/packages/gtk",
-    "photo_view": "https://pub.dev/packages/photo_view",
-    "dotted_border": "https://pub.dev/packages/dotted_border",
-    "encrypt": "https://pub.dev/packages/encrypt",
-    "version": "https://pub.dev/packages/version",
-    "animations": "https://pub.dev/packages/animations",
-    "uri": "https://pub.dev/packages/uri",
-    "sliver_tools": "https://pub.dev/packages/sliver_tools",
-    "universal_html": "https://pub.dev/packages/universal_html",
-    "dropdown_button2": "https://pub.dev/packages/dropdown_button2",
-    "sanitize_html": "https://pub.dev/packages/sanitize_html",
-    "color": "https://pub.dev/packages/color",
-    "hashcodes": "https://pub.dev/packages/hashcodes",
-    "jwt_decoder": "https://pub.dev/packages/jwt_decoder",
-    "dartx": "https://pub.dev/packages/dartx",
-    "list_counter": "https://pub.dev/packages/list_counter",
-    "dartz": "https://pub.dev/packages/dartz",
-    "flutter_gallery_assets": "https://pub.dev/packages/flutter_gallery_assets",
-    "mask_text_input_formatter": "https://pub.dev/packages/mask_text_input_formatter",
-    "hive_flutter": "https://pub.dev/packages/hive_flutter",
-    "scoped_model": "https://pub.dev/packages/scoped_model",
-    "shrine_images": "https://pub.dev/packages/shrine_images",
-    "pin_code_fields": "https://pub.dev/packages/pin_code_fields",
-    "simple_gesture_detector": "https://pub.dev/packages/simple_gesture_detector",
-    "process_runner": "https://pub.dev/packages/process_runner",
-    "rally_assets": "https://pub.dev/packages/rally_assets",
-    "flutter_localized_locales": "https://pub.dev/packages/flutter_localized_locales",
-    "flutter_spinkit": "https://pub.dev/packages/flutter_spinkit",
-    "gql_transform_link": "https://pub.dev/packages/gql_transform_link",
-    "linkify": "https://pub.dev/packages/linkify",
-    "cli_launcher": "https://pub.dev/packages/cli_launcher",
-    "badges": "https://pub.dev/packages/badges",
-    "prompts": "https://pub.dev/packages/prompts",
-    "hive_generator": "https://pub.dev/packages/hive_generator",
-    "build_cli_annotations": "https://pub.dev/packages/build_cli_annotations",
-    "geocoding": "https://pub.dev/packages/geocoding",
-    "tint": "https://pub.dev/packages/tint",
-    "adaptive_number": "https://pub.dev/packages/adaptive_number",
-    "ed25519_edwards": "https://pub.dev/packages/ed25519_edwards",
-    "scroll_to_index": "https://pub.dev/packages/scroll_to_index",
-    "rfc_6901": "https://pub.dev/packages/rfc_6901",
-    "extension": "https://pub.dev/packages/extension",
-    "flutter_rating_bar": "https://pub.dev/packages/flutter_rating_bar",
-    "uni_links_platform_interface": "https://pub.dev/packages/uni_links_platform_interface",
-    "uni_links_web": "https://pub.dev/packages/uni_links_web",
-    "latlong2": "https://pub.dev/packages/latlong2",
-    "scratch_space": "https://pub.dev/packages/scratch_space",
-    "gap": "https://pub.dev/packages/gap",
-    "expandable": "https://pub.dev/packages/expandable",
-    "easy_debounce": "https://pub.dev/packages/easy_debounce",
-    "jwt_decode": "https://pub.dev/packages/jwt_decode",
-    "qr_code_scanner": "https://pub.dev/packages/qr_code_scanner",
-    "type_plus": "https://pub.dev/packages/type_plus",
-    "easy_logger": "https://pub.dev/packages/easy_logger",
-    "one_of": "https://pub.dev/packages/one_of",
-    "one_of_serializer": "https://pub.dev/packages/one_of_serializer",
-    "modal_bottom_sheet": "https://pub.dev/packages/modal_bottom_sheet",
-    "flutter_parsed_text": "https://pub.dev/packages/flutter_parsed_text",
-    "flutter_linkify": "https://pub.dev/packages/flutter_linkify",
-    "graphql_flutter": "https://pub.dev/packages/graphql_flutter",
-    "http_client_helper": "https://pub.dev/packages/http_client_helper",
-    "colorize": "https://pub.dev/packages/colorize",
-    "base32": "https://pub.dev/packages/base32",
-    "after_layout": "https://pub.dev/packages/after_layout",
-    "testreport": "https://pub.dev/packages/testreport",
-    "bot_toast": "https://pub.dev/packages/bot_toast",
-    "wkt_parser": "https://pub.dev/packages/wkt_parser",
-    "mgrs_dart": "https://pub.dev/packages/mgrs_dart",
-    "resizable_widget": "https://pub.dev/packages/resizable_widget",
-    "proj4dart": "https://pub.dev/packages/proj4dart",
-    "flutter_typeahead": "https://pub.dev/packages/flutter_typeahead",
-    "toggle_switch": "https://pub.dev/packages/toggle_switch",
-    "junitreport": "https://pub.dev/packages/junitreport",
-    "polylabel": "https://pub.dev/packages/polylabel",
-    "interact": "https://pub.dev/packages/interact",
-    "redux": "https://pub.dev/packages/redux",
-    "jose": "https://pub.dev/packages/jose",
-    "http_mock_adapter": "https://pub.dev/packages/http_mock_adapter",
-    "http_methods": "https://pub.dev/packages/http_methods",
-    "network_image_mock": "https://pub.dev/packages/network_image_mock",
-    "cli_repl": "https://pub.dev/packages/cli_repl",
-    "image_gallery_saver": "https://pub.dev/packages/image_gallery_saver",
-    "shelf_router": "https://pub.dev/packages/shelf_router",
-    "settings_ui": "https://pub.dev/packages/settings_ui",
-    "simple_observable": "https://pub.dev/packages/simple_observable",
-    "debounce_throttle": "https://pub.dev/packages/debounce_throttle",
-    "from_css_color": "https://pub.dev/packages/from_css_color",
-    "barcode_widget": "https://pub.dev/packages/barcode_widget",
-    "contextmenu": "https://pub.dev/packages/contextmenu",
-    "file_selector": "https://pub.dev/packages/file_selector",
-    "html_unescape": "https://pub.dev/packages/html_unescape",
-    "zxing2": "https://pub.dev/packages/zxing2",
-    "password_strength": "https://pub.dev/packages/password_strength",
-    "console": "https://pub.dev/packages/console",
-    "scroll_pos": "https://pub.dev/packages/scroll_pos",
-    "flutter_breadcrumb": "https://pub.dev/packages/flutter_breadcrumb",
-    "sockjs_client_wrapper": "https://pub.dev/packages/sockjs_client_wrapper",
-    "maybe_just_nothing": "https://pub.dev/packages/maybe_just_nothing",
-    "buffer": "https://pub.dev/packages/buffer",
-    "iregexp": "https://pub.dev/packages/iregexp",
-    "unorm_dart": "https://pub.dev/packages/unorm_dart",
-    "mutex": "https://pub.dev/packages/mutex",
-    "flutter_custom_cursor": "https://pub.dev/packages/flutter_custom_cursor",
-    "get_storage": "https://pub.dev/packages/get_storage",
-    "redux_dev_tools": "https://pub.dev/packages/redux_dev_tools",
-    "draggable_float_widget": "https://pub.dev/packages/draggable_float_widget",
-    "visibility_detector": "https://pub.dev/packages/visibility_detector",
-    "cryptography": "https://pub.dev/packages/cryptography",
-    "base58check": "https://pub.dev/packages/base58check",
-    "memoize": "https://pub.dev/packages/memoize",
-    "window_to_front": "https://pub.dev/packages/window_to_front",
-    "bech32": "https://pub.dev/packages/bech32",
-    "flutter_switch": "https://pub.dev/packages/flutter_switch",
-    "pull_to_refresh": "https://pub.dev/packages/pull_to_refresh",
-    "transparent_image": "https://pub.dev/packages/transparent_image",
-    "dotted_decoration": "https://pub.dev/packages/dotted_decoration",
-    "xmlstream": "https://pub.dev/packages/xmlstream",
-    "diffutil_dart": "https://pub.dev/packages/diffutil_dart",
-    "dnd": "https://pub.dev/packages/dnd",
-    "opentracing": "https://pub.dev/packages/opentracing",
-    "build_verify": "https://pub.dev/packages/build_verify",
-    "gql_tristate_value": "https://pub.dev/packages/gql_tristate_value",
-    "google_api_availability_platform_interface": "https://pub.dev/packages/google_api_availability_platform_interface",
-    "another_flushbar": "https://pub.dev/packages/another_flushbar",
-    "cooky": "https://pub.dev/packages/cooky",
-    "clipboard": "https://pub.dev/packages/clipboard",
-    "crclib": "https://pub.dev/packages/crclib",
-    "keyboard_actions": "https://pub.dev/packages/keyboard_actions",
-    "lcov_parser": "https://pub.dev/packages/lcov_parser",
-    "dotenv": "https://pub.dev/packages/dotenv",
-    "hex": "https://pub.dev/packages/hex",
-    "infinite_listview": "https://pub.dev/packages/infinite_listview",
-    "flip_card": "https://pub.dev/packages/flip_card",
-    "expandable_page_view": "https://pub.dev/packages/expandable_page_view",
-    "otp": "https://pub.dev/packages/otp",
-    "flutter_portal": "https://pub.dev/packages/flutter_portal",
-    "dispose_scope": "https://pub.dev/packages/dispose_scope",
-    "fk_user_agent": "https://pub.dev/packages/fk_user_agent",
-    "numberpicker": "https://pub.dev/packages/numberpicker",
-    "styled_text": "https://pub.dev/packages/styled_text",
-    "grinder": "https://pub.dev/packages/grinder",
-    "sasl_scram": "https://pub.dev/packages/sasl_scram",
-    "flat_buffers": "https://pub.dev/packages/flat_buffers",
-    "recursive_regex": "https://pub.dev/packages/recursive_regex"
-}
+[
+    {
+        "name": "json_annotation",
+        "url": "https://pub.dev/packages/json_annotation",
+        "issues": "125"
+    },
+    {
+        "name": "xml",
+        "url": "https://pub.dev/packages/xml",
+        "issues": "3"
+    },
+    {
+        "name": "checked_yaml",
+        "url": "https://pub.dev/packages/checked_yaml",
+        "issues": "125"
+    },
+    {
+        "name": "webkit_inspection_protocol",
+        "url": "https://pub.dev/packages/webkit_inspection_protocol",
+        "issues": "4"
+    },
+    {
+        "name": "sprintf",
+        "url": "https://pub.dev/packages/sprintf",
+        "issues": "3"
+    },
+    {
+        "name": "shelf_packages_handler",
+        "url": "https://pub.dev/packages/shelf_packages_handler",
+        "issues": "61"
+    },
+    {
+        "name": "frontend_server_client",
+        "url": "https://pub.dev/packages/frontend_server_client",
+        "issues": "195"
+    },
+    {
+        "name": "pool",
+        "url": "https://pub.dev/packages/pool",
+        "issues": "0"
+    },
+    {
+        "name": "node_preamble",
+        "url": "https://pub.dev/packages/node_preamble",
+        "issues": "4"
+    },
+    {
+        "name": "nested",
+        "url": "https://pub.dev/packages/nested",
+        "issues": "1"
+    },
+    {
+        "name": "built_collection",
+        "url": "https://pub.dev/packages/built_collection",
+        "issues": "18"
+    },
+    {
+        "name": "plugin_platform_interface",
+        "url": "https://pub.dev/packages/plugin_platform_interface",
+        "issues": "0"
+    },
+    {
+        "name": "sync_http",
+        "url": "https://pub.dev/packages/sync_http",
+        "issues": "5"
+    },
+    {
+        "name": "mustache_template",
+        "url": "https://pub.dev/packages/mustache_template",
+        "issues": "0"
+    },
+    {
+        "name": "shelf_proxy",
+        "url": "https://pub.dev/packages/shelf_proxy",
+        "issues": "61"
+    },
+    {
+        "name": "vm_snapshot_analysis",
+        "url": "https://pub.dev/packages/vm_snapshot_analysis",
+        "issues": "5k+"
+    },
+    {
+        "name": "completion",
+        "url": "https://pub.dev/packages/completion",
+        "issues": "3"
+    },
+    {
+        "name": "cupertino_icons",
+        "url": "https://pub.dev/packages/cupertino_icons",
+        "issues": "0"
+    },
+    {
+        "name": "state_notifier",
+        "url": "https://pub.dev/packages/state_notifier",
+        "issues": "6"
+    },
+    {
+        "name": "csv",
+        "url": "https://pub.dev/packages/csv",
+        "issues": "17"
+    },
+    {
+        "name": "qr_flutter",
+        "url": "https://pub.dev/packages/qr_flutter",
+        "issues": "36"
+    },
+    {
+        "name": "ci",
+        "url": "https://pub.dev/packages/ci",
+        "issues": "0"
+    },
+    {
+        "name": "diff_match_patch",
+        "url": "https://pub.dev/packages/diff_match_patch",
+        "issues": null
+    },
+    {
+        "name": "universal_io",
+        "url": "https://pub.dev/packages/universal_io",
+        "issues": "23"
+    },
+    {
+        "name": "scrollable_positioned_list",
+        "url": "https://pub.dev/packages/scrollable_positioned_list",
+        "issues": "209"
+    },
+    {
+        "name": "cli_config",
+        "url": "https://pub.dev/packages/cli_config",
+        "issues": "528"
+    },
+    {
+        "name": "system_info2",
+        "url": "https://pub.dev/packages/system_info2",
+        "issues": "8"
+    },
+    {
+        "name": "nm",
+        "url": "https://pub.dev/packages/nm",
+        "issues": "5"
+    },
+    {
+        "name": "retry",
+        "url": "https://pub.dev/packages/retry",
+        "issues": "17"
+    },
+    {
+        "name": "ini",
+        "url": "https://pub.dev/packages/ini",
+        "issues": null
+    },
+    {
+        "name": "json2yaml",
+        "url": "https://pub.dev/packages/json2yaml",
+        "issues": "4"
+    },
+    {
+        "name": "random_string",
+        "url": "https://pub.dev/packages/random_string",
+        "issues": "0"
+    },
+    {
+        "name": "functional_data",
+        "url": "https://pub.dev/packages/functional_data",
+        "issues": "2"
+    },
+    {
+        "name": "chunked_stream",
+        "url": "https://pub.dev/packages/chunked_stream",
+        "issues": "17"
+    },
+    {
+        "name": "pubspec_lock",
+        "url": "https://pub.dev/packages/pubspec_lock",
+        "issues": "1"
+    },
+    {
+        "name": "validators2",
+        "url": "https://pub.dev/packages/validators2",
+        "issues": "0"
+    },
+    {
+        "name": "vin_decoder",
+        "url": "https://pub.dev/packages/vin_decoder",
+        "issues": "2"
+    },
+    {
+        "name": "global_assert",
+        "url": "https://pub.dev/packages/global_assert",
+        "issues": "1"
+    },
+    {
+        "name": "recase",
+        "url": "https://pub.dev/packages/recase",
+        "issues": "11"
+    },
+    {
+        "name": "google_fonts",
+        "url": "https://pub.dev/packages/google_fonts",
+        "issues": "65"
+    },
+    {
+        "name": "tuple",
+        "url": "https://pub.dev/packages/tuple",
+        "issues": "5"
+    },
+    {
+        "name": "hive",
+        "url": "https://pub.dev/packages/hive",
+        "issues": null
+    },
+    {
+        "name": "shimmer",
+        "url": "https://pub.dev/packages/shimmer",
+        "issues": "30"
+    },
+    {
+        "name": "path_drawing",
+        "url": "https://pub.dev/packages/path_drawing",
+        "issues": "7"
+    },
+    {
+        "name": "auto_size_text",
+        "url": "https://pub.dev/packages/auto_size_text",
+        "issues": "83"
+    },
+    {
+        "name": "flutter_staggered_grid_view",
+        "url": "https://pub.dev/packages/flutter_staggered_grid_view",
+        "issues": "79"
+    },
+    {
+        "name": "flutter_keyboard_visibility_platform_interface",
+        "url": "https://pub.dev/packages/flutter_keyboard_visibility_platform_interface",
+        "issues": "29"
+    },
+    {
+        "name": "flutter_keyboard_visibility",
+        "url": "https://pub.dev/packages/flutter_keyboard_visibility",
+        "issues": "29"
+    },
+    {
+        "name": "flutter_keyboard_visibility_linux",
+        "url": "https://pub.dev/packages/flutter_keyboard_visibility_linux",
+        "issues": "29"
+    },
+    {
+        "name": "flutter_keyboard_visibility_macos",
+        "url": "https://pub.dev/packages/flutter_keyboard_visibility_macos",
+        "issues": "29"
+    },
+    {
+        "name": "flutter_keyboard_visibility_windows",
+        "url": "https://pub.dev/packages/flutter_keyboard_visibility_windows",
+        "issues": "29"
+    },
+    {
+        "name": "flutter_keyboard_visibility_web",
+        "url": "https://pub.dev/packages/flutter_keyboard_visibility_web",
+        "issues": "29"
+    },
+    {
+        "name": "gtk",
+        "url": "https://pub.dev/packages/gtk",
+        "issues": "3"
+    },
+    {
+        "name": "photo_view",
+        "url": "https://pub.dev/packages/photo_view",
+        "issues": "101"
+    },
+    {
+        "name": "dotted_border",
+        "url": "https://pub.dev/packages/dotted_border",
+        "issues": "16"
+    },
+    {
+        "name": "encrypt",
+        "url": "https://pub.dev/packages/encrypt",
+        "issues": "86"
+    },
+    {
+        "name": "version",
+        "url": "https://pub.dev/packages/version",
+        "issues": "3"
+    },
+    {
+        "name": "animations",
+        "url": "https://pub.dev/packages/animations",
+        "issues": "0"
+    },
+    {
+        "name": "uri",
+        "url": "https://pub.dev/packages/uri",
+        "issues": "4"
+    },
+    {
+        "name": "sliver_tools",
+        "url": "https://pub.dev/packages/sliver_tools",
+        "issues": "0"
+    },
+    {
+        "name": "universal_html",
+        "url": "https://pub.dev/packages/universal_html",
+        "issues": "20"
+    },
+    {
+        "name": "dropdown_button2",
+        "url": "https://pub.dev/packages/dropdown_button2",
+        "issues": "39"
+    },
+    {
+        "name": "sanitize_html",
+        "url": "https://pub.dev/packages/sanitize_html",
+        "issues": "17"
+    },
+    {
+        "name": "color",
+        "url": "https://pub.dev/packages/color",
+        "issues": "3"
+    },
+    {
+        "name": "hashcodes",
+        "url": "https://pub.dev/packages/hashcodes",
+        "issues": null
+    },
+    {
+        "name": "jwt_decoder",
+        "url": "https://pub.dev/packages/jwt_decoder",
+        "issues": "8"
+    },
+    {
+        "name": "dartx",
+        "url": "https://pub.dev/packages/dartx",
+        "issues": "19"
+    },
+    {
+        "name": "list_counter",
+        "url": "https://pub.dev/packages/list_counter",
+        "issues": "0"
+    },
+    {
+        "name": "dartz",
+        "url": "https://pub.dev/packages/dartz",
+        "issues": "22"
+    },
+    {
+        "name": "flutter_gallery_assets",
+        "url": "https://pub.dev/packages/flutter_gallery_assets",
+        "issues": null
+    },
+    {
+        "name": "mask_text_input_formatter",
+        "url": "https://pub.dev/packages/mask_text_input_formatter",
+        "issues": "6"
+    },
+    {
+        "name": "hive_flutter",
+        "url": "https://pub.dev/packages/hive_flutter",
+        "issues": null
+    },
+    {
+        "name": "scoped_model",
+        "url": "https://pub.dev/packages/scoped_model",
+        "issues": "18"
+    },
+    {
+        "name": "shrine_images",
+        "url": "https://pub.dev/packages/shrine_images",
+        "issues": "0"
+    },
+    {
+        "name": "pin_code_fields",
+        "url": "https://pub.dev/packages/pin_code_fields",
+        "issues": "0"
+    },
+    {
+        "name": "simple_gesture_detector",
+        "url": "https://pub.dev/packages/simple_gesture_detector",
+        "issues": "0"
+    },
+    {
+        "name": "process_runner",
+        "url": "https://pub.dev/packages/process_runner",
+        "issues": "3"
+    },
+    {
+        "name": "rally_assets",
+        "url": "https://pub.dev/packages/rally_assets",
+        "issues": "0"
+    },
+    {
+        "name": "flutter_localized_locales",
+        "url": "https://pub.dev/packages/flutter_localized_locales",
+        "issues": "2"
+    },
+    {
+        "name": "flutter_spinkit",
+        "url": "https://pub.dev/packages/flutter_spinkit",
+        "issues": "11"
+    },
+    {
+        "name": "gql_transform_link",
+        "url": "https://pub.dev/packages/gql_transform_link",
+        "issues": "59"
+    },
+    {
+        "name": "linkify",
+        "url": "https://pub.dev/packages/linkify",
+        "issues": "8"
+    },
+    {
+        "name": "cli_launcher",
+        "url": "https://pub.dev/packages/cli_launcher",
+        "issues": "2"
+    },
+    {
+        "name": "badges",
+        "url": "https://pub.dev/packages/badges",
+        "issues": "8"
+    },
+    {
+        "name": "prompts",
+        "url": "https://pub.dev/packages/prompts",
+        "issues": "0"
+    },
+    {
+        "name": "hive_generator",
+        "url": "https://pub.dev/packages/hive_generator",
+        "issues": null
+    },
+    {
+        "name": "build_cli_annotations",
+        "url": "https://pub.dev/packages/build_cli_annotations",
+        "issues": "2"
+    },
+    {
+        "name": "geocoding",
+        "url": "https://pub.dev/packages/geocoding",
+        "issues": "15"
+    },
+    {
+        "name": "tint",
+        "url": "https://pub.dev/packages/tint",
+        "issues": "0"
+    },
+    {
+        "name": "adaptive_number",
+        "url": "https://pub.dev/packages/adaptive_number",
+        "issues": "0"
+    },
+    {
+        "name": "ed25519_edwards",
+        "url": "https://pub.dev/packages/ed25519_edwards",
+        "issues": "0"
+    },
+    {
+        "name": "scroll_to_index",
+        "url": "https://pub.dev/packages/scroll_to_index",
+        "issues": "16"
+    },
+    {
+        "name": "rfc_6901",
+        "url": "https://pub.dev/packages/rfc_6901",
+        "issues": "0"
+    },
+    {
+        "name": "extension",
+        "url": "https://pub.dev/packages/extension",
+        "issues": "9"
+    },
+    {
+        "name": "flutter_rating_bar",
+        "url": "https://pub.dev/packages/flutter_rating_bar",
+        "issues": "36"
+    },
+    {
+        "name": "uni_links_platform_interface",
+        "url": "https://pub.dev/packages/uni_links_platform_interface",
+        "issues": "113"
+    },
+    {
+        "name": "uni_links_web",
+        "url": "https://pub.dev/packages/uni_links_web",
+        "issues": "113"
+    },
+    {
+        "name": "latlong2",
+        "url": "https://pub.dev/packages/latlong2",
+        "issues": "5"
+    },
+    {
+        "name": "scratch_space",
+        "url": "https://pub.dev/packages/scratch_space",
+        "issues": "131"
+    },
+    {
+        "name": "gap",
+        "url": "https://pub.dev/packages/gap",
+        "issues": "13"
+    },
+    {
+        "name": "expandable",
+        "url": "https://pub.dev/packages/expandable",
+        "issues": "53"
+    },
+    {
+        "name": "easy_debounce",
+        "url": "https://pub.dev/packages/easy_debounce",
+        "issues": "6"
+    },
+    {
+        "name": "jwt_decode",
+        "url": "https://pub.dev/packages/jwt_decode",
+        "issues": "2"
+    },
+    {
+        "name": "qr_code_scanner",
+        "url": "https://pub.dev/packages/qr_code_scanner",
+        "issues": "183"
+    },
+    {
+        "name": "type_plus",
+        "url": "https://pub.dev/packages/type_plus",
+        "issues": "1"
+    },
+    {
+        "name": "easy_logger",
+        "url": "https://pub.dev/packages/easy_logger",
+        "issues": null
+    },
+    {
+        "name": "one_of",
+        "url": "https://pub.dev/packages/one_of",
+        "issues": "0"
+    },
+    {
+        "name": "one_of_serializer",
+        "url": "https://pub.dev/packages/one_of_serializer",
+        "issues": "0"
+    },
+    {
+        "name": "modal_bottom_sheet",
+        "url": "https://pub.dev/packages/modal_bottom_sheet",
+        "issues": "139"
+    },
+    {
+        "name": "flutter_parsed_text",
+        "url": "https://pub.dev/packages/flutter_parsed_text",
+        "issues": "16"
+    },
+    {
+        "name": "flutter_linkify",
+        "url": "https://pub.dev/packages/flutter_linkify",
+        "issues": "44"
+    },
+    {
+        "name": "graphql_flutter",
+        "url": "https://pub.dev/packages/graphql_flutter",
+        "issues": "148"
+    },
+    {
+        "name": "http_client_helper",
+        "url": "https://pub.dev/packages/http_client_helper",
+        "issues": "2"
+    },
+    {
+        "name": "colorize",
+        "url": "https://pub.dev/packages/colorize",
+        "issues": "4"
+    },
+    {
+        "name": "base32",
+        "url": "https://pub.dev/packages/base32",
+        "issues": "0"
+    },
+    {
+        "name": "after_layout",
+        "url": "https://pub.dev/packages/after_layout",
+        "issues": "0"
+    },
+    {
+        "name": "testreport",
+        "url": "https://pub.dev/packages/testreport",
+        "issues": "0"
+    },
+    {
+        "name": "bot_toast",
+        "url": "https://pub.dev/packages/bot_toast",
+        "issues": "1"
+    },
+    {
+        "name": "wkt_parser",
+        "url": "https://pub.dev/packages/wkt_parser",
+        "issues": "0"
+    },
+    {
+        "name": "mgrs_dart",
+        "url": "https://pub.dev/packages/mgrs_dart",
+        "issues": "0"
+    },
+    {
+        "name": "resizable_widget",
+        "url": "https://pub.dev/packages/resizable_widget",
+        "issues": "12"
+    },
+    {
+        "name": "proj4dart",
+        "url": "https://pub.dev/packages/proj4dart",
+        "issues": "1"
+    },
+    {
+        "name": "flutter_typeahead",
+        "url": "https://pub.dev/packages/flutter_typeahead",
+        "issues": "22"
+    },
+    {
+        "name": "toggle_switch",
+        "url": "https://pub.dev/packages/toggle_switch",
+        "issues": "7"
+    },
+    {
+        "name": "junitreport",
+        "url": "https://pub.dev/packages/junitreport",
+        "issues": "10"
+    },
+    {
+        "name": "polylabel",
+        "url": "https://pub.dev/packages/polylabel",
+        "issues": "0"
+    },
+    {
+        "name": "interact",
+        "url": "https://pub.dev/packages/interact",
+        "issues": "5"
+    },
+    {
+        "name": "redux",
+        "url": "https://pub.dev/packages/redux",
+        "issues": "9"
+    },
+    {
+        "name": "jose",
+        "url": "https://pub.dev/packages/jose",
+        "issues": "5"
+    },
+    {
+        "name": "http_mock_adapter",
+        "url": "https://pub.dev/packages/http_mock_adapter",
+        "issues": "18"
+    },
+    {
+        "name": "http_methods",
+        "url": "https://pub.dev/packages/http_methods",
+        "issues": "17"
+    },
+    {
+        "name": "network_image_mock",
+        "url": "https://pub.dev/packages/network_image_mock",
+        "issues": "6"
+    },
+    {
+        "name": "cli_repl",
+        "url": "https://pub.dev/packages/cli_repl",
+        "issues": "3"
+    },
+    {
+        "name": "image_gallery_saver",
+        "url": "https://pub.dev/packages/image_gallery_saver",
+        "issues": "77"
+    },
+    {
+        "name": "shelf_router",
+        "url": "https://pub.dev/packages/shelf_router",
+        "issues": "61"
+    },
+    {
+        "name": "settings_ui",
+        "url": "https://pub.dev/packages/settings_ui",
+        "issues": "21"
+    },
+    {
+        "name": "simple_observable",
+        "url": "https://pub.dev/packages/simple_observable",
+        "issues": "0"
+    },
+    {
+        "name": "debounce_throttle",
+        "url": "https://pub.dev/packages/debounce_throttle",
+        "issues": "4"
+    },
+    {
+        "name": "from_css_color",
+        "url": "https://pub.dev/packages/from_css_color",
+        "issues": "0"
+    },
+    {
+        "name": "barcode_widget",
+        "url": "https://pub.dev/packages/barcode_widget",
+        "issues": "4"
+    },
+    {
+        "name": "contextmenu",
+        "url": "https://pub.dev/packages/contextmenu",
+        "issues": null
+    },
+    {
+        "name": "file_selector",
+        "url": "https://pub.dev/packages/file_selector",
+        "issues": "0"
+    },
+    {
+        "name": "html_unescape",
+        "url": "https://pub.dev/packages/html_unescape",
+        "issues": "4"
+    },
+    {
+        "name": "zxing2",
+        "url": "https://pub.dev/packages/zxing2",
+        "issues": "8"
+    },
+    {
+        "name": "password_strength",
+        "url": "https://pub.dev/packages/password_strength",
+        "issues": "0"
+    },
+    {
+        "name": "console",
+        "url": "https://pub.dev/packages/console",
+        "issues": "8"
+    },
+    {
+        "name": "scroll_pos",
+        "url": "https://pub.dev/packages/scroll_pos",
+        "issues": "0"
+    },
+    {
+        "name": "flutter_breadcrumb",
+        "url": "https://pub.dev/packages/flutter_breadcrumb",
+        "issues": "0"
+    },
+    {
+        "name": "sockjs_client_wrapper",
+        "url": "https://pub.dev/packages/sockjs_client_wrapper",
+        "issues": "0"
+    },
+    {
+        "name": "maybe_just_nothing",
+        "url": "https://pub.dev/packages/maybe_just_nothing",
+        "issues": "0"
+    },
+    {
+        "name": "buffer",
+        "url": "https://pub.dev/packages/buffer",
+        "issues": "3"
+    },
+    {
+        "name": "iregexp",
+        "url": "https://pub.dev/packages/iregexp",
+        "issues": "1"
+    },
+    {
+        "name": "unorm_dart",
+        "url": "https://pub.dev/packages/unorm_dart",
+        "issues": "7"
+    },
+    {
+        "name": "mutex",
+        "url": "https://pub.dev/packages/mutex",
+        "issues": "0"
+    },
+    {
+        "name": "flutter_custom_cursor",
+        "url": "https://pub.dev/packages/flutter_custom_cursor",
+        "issues": "1"
+    },
+    {
+        "name": "get_storage",
+        "url": "https://pub.dev/packages/get_storage",
+        "issues": "83"
+    },
+    {
+        "name": "redux_dev_tools",
+        "url": "https://pub.dev/packages/redux_dev_tools",
+        "issues": "1"
+    },
+    {
+        "name": "draggable_float_widget",
+        "url": "https://pub.dev/packages/draggable_float_widget",
+        "issues": "2"
+    },
+    {
+        "name": "visibility_detector",
+        "url": "https://pub.dev/packages/visibility_detector",
+        "issues": "209"
+    },
+    {
+        "name": "cryptography",
+        "url": "https://pub.dev/packages/cryptography",
+        "issues": "41"
+    },
+    {
+        "name": "base58check",
+        "url": "https://pub.dev/packages/base58check",
+        "issues": "0"
+    },
+    {
+        "name": "memoize",
+        "url": "https://pub.dev/packages/memoize",
+        "issues": "1"
+    },
+    {
+        "name": "window_to_front",
+        "url": "https://pub.dev/packages/window_to_front",
+        "issues": "0"
+    },
+    {
+        "name": "bech32",
+        "url": "https://pub.dev/packages/bech32",
+        "issues": "2"
+    },
+    {
+        "name": "flutter_switch",
+        "url": "https://pub.dev/packages/flutter_switch",
+        "issues": "11"
+    },
+    {
+        "name": "pull_to_refresh",
+        "url": "https://pub.dev/packages/pull_to_refresh",
+        "issues": "139"
+    },
+    {
+        "name": "transparent_image",
+        "url": "https://pub.dev/packages/transparent_image",
+        "issues": "1"
+    },
+    {
+        "name": "dotted_decoration",
+        "url": "https://pub.dev/packages/dotted_decoration",
+        "issues": "1"
+    },
+    {
+        "name": "xmlstream",
+        "url": "https://pub.dev/packages/xmlstream",
+        "issues": "0"
+    },
+    {
+        "name": "diffutil_dart",
+        "url": "https://pub.dev/packages/diffutil_dart",
+        "issues": "4"
+    },
+    {
+        "name": "dnd",
+        "url": "https://pub.dev/packages/dnd",
+        "issues": "4"
+    },
+    {
+        "name": "opentracing",
+        "url": "https://pub.dev/packages/opentracing",
+        "issues": null
+    },
+    {
+        "name": "build_verify",
+        "url": "https://pub.dev/packages/build_verify",
+        "issues": "3"
+    },
+    {
+        "name": "gql_tristate_value",
+        "url": "https://pub.dev/packages/gql_tristate_value",
+        "issues": "59"
+    },
+    {
+        "name": "google_api_availability_platform_interface",
+        "url": "https://pub.dev/packages/google_api_availability_platform_interface",
+        "issues": "0"
+    },
+    {
+        "name": "another_flushbar",
+        "url": "https://pub.dev/packages/another_flushbar",
+        "issues": "30"
+    },
+    {
+        "name": "cooky",
+        "url": "https://pub.dev/packages/cooky",
+        "issues": null
+    },
+    {
+        "name": "clipboard",
+        "url": "https://pub.dev/packages/clipboard",
+        "issues": "14"
+    },
+    {
+        "name": "crclib",
+        "url": "https://pub.dev/packages/crclib",
+        "issues": "3"
+    },
+    {
+        "name": "keyboard_actions",
+        "url": "https://pub.dev/packages/keyboard_actions",
+        "issues": "0"
+    },
+    {
+        "name": "lcov_parser",
+        "url": "https://pub.dev/packages/lcov_parser",
+        "issues": "0"
+    },
+    {
+        "name": "dotenv",
+        "url": "https://pub.dev/packages/dotenv",
+        "issues": "5"
+    },
+    {
+        "name": "hex",
+        "url": "https://pub.dev/packages/hex",
+        "issues": "0"
+    },
+    {
+        "name": "infinite_listview",
+        "url": "https://pub.dev/packages/infinite_listview",
+        "issues": "4"
+    },
+    {
+        "name": "flip_card",
+        "url": "https://pub.dev/packages/flip_card",
+        "issues": "17"
+    },
+    {
+        "name": "expandable_page_view",
+        "url": "https://pub.dev/packages/expandable_page_view",
+        "issues": "7"
+    },
+    {
+        "name": "otp",
+        "url": "https://pub.dev/packages/otp",
+        "issues": "1"
+    },
+    {
+        "name": "flutter_portal",
+        "url": "https://pub.dev/packages/flutter_portal",
+        "issues": "0"
+    },
+    {
+        "name": "dispose_scope",
+        "url": "https://pub.dev/packages/dispose_scope",
+        "issues": "3"
+    },
+    {
+        "name": "fk_user_agent",
+        "url": "https://pub.dev/packages/fk_user_agent",
+        "issues": "5"
+    },
+    {
+        "name": "numberpicker",
+        "url": "https://pub.dev/packages/numberpicker",
+        "issues": "29"
+    },
+    {
+        "name": "styled_text",
+        "url": "https://pub.dev/packages/styled_text",
+        "issues": "3"
+    },
+    {
+        "name": "grinder",
+        "url": "https://pub.dev/packages/grinder",
+        "issues": "46"
+    },
+    {
+        "name": "sasl_scram",
+        "url": "https://pub.dev/packages/sasl_scram",
+        "issues": "0"
+    },
+    {
+        "name": "flat_buffers",
+        "url": "https://pub.dev/packages/flat_buffers",
+        "issues": "98"
+    },
+    {
+        "name": "recursive_regex",
+        "url": "https://pub.dev/packages/recursive_regex",
+        "issues": "0"
+    }
+]
