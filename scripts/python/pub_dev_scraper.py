@@ -6,6 +6,7 @@ import random
 import parsedatetime
 from dateutil.relativedelta import relativedelta
 import csv
+import json
 
 
 BASE_URL = "https://pub.dev"
@@ -77,13 +78,18 @@ def save_to_csv(filename="././data/package_urls.csv"):
     """Save the package_urls dictionary to a CSV file."""
     with open(filename, mode='w', newline='', encoding='utf-8') as csv_file:
         writer = csv.writer(csv_file)
-        writer.writerow(["Package Name", "URL"])  # Write header
+        writer.writerow(["Package Name", "URL"])
         for name, url in package_urls.items():
             writer.writerow([name, url])
+
+def save_to_json(filename="./data/package_urls.json"):
+    """Save the package_urls dictionary to a JSON file."""
+    with open(filename, mode='w', encoding='utf-8') as json_file:
+        json.dump(package_urls, json_file, indent=4, ensure_ascii=False)
 
 # Main Script
 scrape_pub()  # Fill global var with scraped packages
 
-print(f"\nFound {len(package_urls)} package URLs.\nSaving to CSV file...")
-save_to_csv()
+print(f"\nFound {len(package_urls)} package URLs.\nSaving to JSON file...")
+save_to_json()
 print("Saved to package_urls.csv successfully!")
