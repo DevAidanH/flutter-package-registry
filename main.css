@@ -4,7 +4,6 @@
     --secondary: #ffffff;
     --accent: #ff596a;
 }
-
 body{
     margin: 0;
     padding: 0;
@@ -13,6 +12,12 @@ body{
     font-style: normal;
     background-color: var(--secondary);
     color: var(--primiary)
+}
+h1{
+    font-size: 26px;
+}
+p{
+    font-size: 20px;
 }
 
 /*Header*/
@@ -141,6 +146,9 @@ body{
     .footer{
         height: 30vh;
     }
+    .footer img{
+        width: 30vw;
+    }
 
     /*General*/
     h1{
@@ -149,6 +157,5 @@ body{
     p{
         font-size: 15px;
     }
-
 }
   
