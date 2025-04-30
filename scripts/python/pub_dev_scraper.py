@@ -109,7 +109,7 @@ def scrape_pub():
         for card in package_cards:
             check_card(card)
 
-def save_to_json(filename="./data/package_urls.json"):
+def save_to_json(filename="./public/package_urls.json"):
     """Save the package_urls dictionary to a JSON file."""
     with open(filename, mode='w', encoding='utf-8') as json_file:
         json.dump(package_urls, json_file, indent=4, ensure_ascii=False)
