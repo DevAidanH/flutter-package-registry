@@ -39,7 +39,7 @@ span{
     flex-direction: column;
     justify-content: center;
 }
-.header .headerBox h1, p, h3{
+.header .headerBox h1, .header .headerBox p, .header .headerBox h3{
     width: 90%;
 }
 .header .headerBox h3{
@@ -159,6 +159,20 @@ span{
     }
     .packages ul div{
         width: 40vw;
+        height: 100px;
+    }
+    .packages ul div h3{
+        font-size: 16px;
+        margin: 0;
+    }
+    .packages ul div p{
+        font-size: 12px;
+        margin: 0;
+    }
+    .packages ul div a{
+        font-size: 12px;
+        color: var(--accent);
+        text-decoration: none;
     }
     
     /*Footer*/
