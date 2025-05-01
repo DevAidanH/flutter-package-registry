@@ -10,7 +10,7 @@ BASE_URL = "https://pub.dev"
 
 # Settings
 DOWNLOAD_THRESHOLD = 100_000  # Packages with more than 100000 downloads
-MAX_PAGES = 100 
+MAX_PAGES = 500 
 package_urls = []
 
 def parse_downloads(download_text):

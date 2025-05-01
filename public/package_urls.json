@@ -120,19 +120,14 @@
         "issues": "23"
     },
     {
-        "name": "scrollable_positioned_list",
-        "url": "https://pub.dev/packages/scrollable_positioned_list",
-        "issues": "209"
-    },
-    {
         "name": "cli_config",
         "url": "https://pub.dev/packages/cli_config",
         "issues": "528"
     },
     {
-        "name": "system_info2",
-        "url": "https://pub.dev/packages/system_info2",
-        "issues": "8"
+        "name": "scrollable_positioned_list",
+        "url": "https://pub.dev/packages/scrollable_positioned_list",
+        "issues": "208"
     },
     {
         "name": "nm",
@@ -140,9 +135,14 @@
         "issues": "5"
     },
     {
+        "name": "system_info2",
+        "url": "https://pub.dev/packages/system_info2",
+        "issues": "8"
+    },
+    {
         "name": "retry",
         "url": "https://pub.dev/packages/retry",
-        "issues": "17"
+        "issues": "19"
     },
     {
         "name": "ini",
@@ -167,7 +167,7 @@
     {
         "name": "chunked_stream",
         "url": "https://pub.dev/packages/chunked_stream",
-        "issues": "17"
+        "issues": "19"
     },
     {
         "name": "pubspec_lock",
@@ -312,7 +312,7 @@
     {
         "name": "sanitize_html",
         "url": "https://pub.dev/packages/sanitize_html",
-        "issues": "17"
+        "issues": "19"
     },
     {
         "name": "color",
@@ -345,14 +345,14 @@
         "issues": "22"
     },
     {
-        "name": "flutter_gallery_assets",
-        "url": "https://pub.dev/packages/flutter_gallery_assets",
-        "issues": null
-    },
-    {
         "name": "mask_text_input_formatter",
         "url": "https://pub.dev/packages/mask_text_input_formatter",
         "issues": "6"
+    },
+    {
+        "name": "flutter_gallery_assets",
+        "url": "https://pub.dev/packages/flutter_gallery_assets",
+        "issues": null
     },
     {
         "name": "hive_flutter",
@@ -365,8 +365,8 @@
         "issues": "18"
     },
     {
-        "name": "shrine_images",
-        "url": "https://pub.dev/packages/shrine_images",
+        "name": "simple_gesture_detector",
+        "url": "https://pub.dev/packages/simple_gesture_detector",
         "issues": "0"
     },
     {
@@ -375,14 +375,19 @@
         "issues": "0"
     },
     {
-        "name": "simple_gesture_detector",
-        "url": "https://pub.dev/packages/simple_gesture_detector",
+        "name": "shrine_images",
+        "url": "https://pub.dev/packages/shrine_images",
         "issues": "0"
     },
     {
         "name": "process_runner",
         "url": "https://pub.dev/packages/process_runner",
         "issues": "3"
+    },
+    {
+        "name": "flutter_spinkit",
+        "url": "https://pub.dev/packages/flutter_spinkit",
+        "issues": "11"
     },
     {
         "name": "rally_assets",
@@ -393,11 +398,6 @@
         "name": "flutter_localized_locales",
         "url": "https://pub.dev/packages/flutter_localized_locales",
         "issues": "2"
-    },
-    {
-        "name": "flutter_spinkit",
-        "url": "https://pub.dev/packages/flutter_spinkit",
-        "issues": "11"
     },
     {
         "name": "gql_transform_link",
@@ -430,11 +430,6 @@
         "issues": null
     },
     {
-        "name": "build_cli_annotations",
-        "url": "https://pub.dev/packages/build_cli_annotations",
-        "issues": "2"
-    },
-    {
         "name": "geocoding",
         "url": "https://pub.dev/packages/geocoding",
         "issues": "15"
@@ -443,6 +438,11 @@
         "name": "tint",
         "url": "https://pub.dev/packages/tint",
         "issues": "0"
+    },
+    {
+        "name": "build_cli_annotations",
+        "url": "https://pub.dev/packages/build_cli_annotations",
+        "issues": "2"
     },
     {
         "name": "adaptive_number",
@@ -455,14 +455,19 @@
         "issues": "0"
     },
     {
+        "name": "rfc_6901",
+        "url": "https://pub.dev/packages/rfc_6901",
+        "issues": "0"
+    },
+    {
         "name": "scroll_to_index",
         "url": "https://pub.dev/packages/scroll_to_index",
         "issues": "16"
     },
     {
-        "name": "rfc_6901",
-        "url": "https://pub.dev/packages/rfc_6901",
-        "issues": "0"
+        "name": "flutter_rating_bar",
+        "url": "https://pub.dev/packages/flutter_rating_bar",
+        "issues": "36"
     },
     {
         "name": "extension",
@@ -470,9 +475,9 @@
         "issues": "9"
     },
     {
-        "name": "flutter_rating_bar",
-        "url": "https://pub.dev/packages/flutter_rating_bar",
-        "issues": "36"
+        "name": "latlong2",
+        "url": "https://pub.dev/packages/latlong2",
+        "issues": "5"
     },
     {
         "name": "uni_links_platform_interface",
@@ -483,11 +488,6 @@
         "name": "uni_links_web",
         "url": "https://pub.dev/packages/uni_links_web",
         "issues": "113"
-    },
-    {
-        "name": "latlong2",
-        "url": "https://pub.dev/packages/latlong2",
-        "issues": "5"
     },
     {
         "name": "scratch_space",
@@ -515,19 +515,9 @@
         "issues": "2"
     },
     {
-        "name": "qr_code_scanner",
-        "url": "https://pub.dev/packages/qr_code_scanner",
-        "issues": "183"
-    },
-    {
         "name": "type_plus",
         "url": "https://pub.dev/packages/type_plus",
         "issues": "1"
-    },
-    {
-        "name": "easy_logger",
-        "url": "https://pub.dev/packages/easy_logger",
-        "issues": null
     },
     {
         "name": "one_of",
@@ -540,14 +530,19 @@
         "issues": "0"
     },
     {
+        "name": "easy_logger",
+        "url": "https://pub.dev/packages/easy_logger",
+        "issues": null
+    },
+    {
+        "name": "qr_code_scanner",
+        "url": "https://pub.dev/packages/qr_code_scanner",
+        "issues": "183"
+    },
+    {
         "name": "modal_bottom_sheet",
         "url": "https://pub.dev/packages/modal_bottom_sheet",
         "issues": "139"
-    },
-    {
-        "name": "flutter_parsed_text",
-        "url": "https://pub.dev/packages/flutter_parsed_text",
-        "issues": "16"
     },
     {
         "name": "flutter_linkify",
@@ -555,14 +550,14 @@
         "issues": "44"
     },
     {
-        "name": "graphql_flutter",
-        "url": "https://pub.dev/packages/graphql_flutter",
-        "issues": "148"
-    },
-    {
         "name": "http_client_helper",
         "url": "https://pub.dev/packages/http_client_helper",
         "issues": "2"
+    },
+    {
+        "name": "flutter_parsed_text",
+        "url": "https://pub.dev/packages/flutter_parsed_text",
+        "issues": "16"
     },
     {
         "name": "colorize",
@@ -575,19 +570,14 @@
         "issues": "0"
     },
     {
-        "name": "after_layout",
-        "url": "https://pub.dev/packages/after_layout",
-        "issues": "0"
-    },
-    {
         "name": "testreport",
         "url": "https://pub.dev/packages/testreport",
         "issues": "0"
     },
     {
-        "name": "bot_toast",
-        "url": "https://pub.dev/packages/bot_toast",
-        "issues": "1"
+        "name": "after_layout",
+        "url": "https://pub.dev/packages/after_layout",
+        "issues": "0"
     },
     {
         "name": "wkt_parser",
@@ -600,6 +590,11 @@
         "issues": "0"
     },
     {
+        "name": "bot_toast",
+        "url": "https://pub.dev/packages/bot_toast",
+        "issues": "1"
+    },
+    {
         "name": "resizable_widget",
         "url": "https://pub.dev/packages/resizable_widget",
         "issues": "12"
@@ -610,14 +605,14 @@
         "issues": "1"
     },
     {
+        "name": "redux",
+        "url": "https://pub.dev/packages/redux",
+        "issues": "9"
+    },
+    {
         "name": "flutter_typeahead",
         "url": "https://pub.dev/packages/flutter_typeahead",
         "issues": "22"
-    },
-    {
-        "name": "toggle_switch",
-        "url": "https://pub.dev/packages/toggle_switch",
-        "issues": "7"
     },
     {
         "name": "junitreport",
@@ -635,14 +630,19 @@
         "issues": "5"
     },
     {
-        "name": "redux",
-        "url": "https://pub.dev/packages/redux",
-        "issues": "9"
-    },
-    {
         "name": "jose",
         "url": "https://pub.dev/packages/jose",
         "issues": "5"
+    },
+    {
+        "name": "toggle_switch",
+        "url": "https://pub.dev/packages/toggle_switch",
+        "issues": "7"
+    },
+    {
+        "name": "cli_repl",
+        "url": "https://pub.dev/packages/cli_repl",
+        "issues": "3"
     },
     {
         "name": "http_mock_adapter",
@@ -652,17 +652,12 @@
     {
         "name": "http_methods",
         "url": "https://pub.dev/packages/http_methods",
-        "issues": "17"
+        "issues": "19"
     },
     {
         "name": "network_image_mock",
         "url": "https://pub.dev/packages/network_image_mock",
         "issues": "6"
-    },
-    {
-        "name": "cli_repl",
-        "url": "https://pub.dev/packages/cli_repl",
-        "issues": "3"
     },
     {
         "name": "image_gallery_saver",
@@ -675,9 +670,34 @@
         "issues": "61"
     },
     {
+        "name": "barcode_widget",
+        "url": "https://pub.dev/packages/barcode_widget",
+        "issues": "4"
+    },
+    {
+        "name": "from_css_color",
+        "url": "https://pub.dev/packages/from_css_color",
+        "issues": "0"
+    },
+    {
+        "name": "sockjs_client_wrapper",
+        "url": "https://pub.dev/packages/sockjs_client_wrapper",
+        "issues": "0"
+    },
+    {
+        "name": "html_unescape",
+        "url": "https://pub.dev/packages/html_unescape",
+        "issues": "4"
+    },
+    {
         "name": "settings_ui",
         "url": "https://pub.dev/packages/settings_ui",
         "issues": "21"
+    },
+    {
+        "name": "file_selector",
+        "url": "https://pub.dev/packages/file_selector",
+        "issues": "0"
     },
     {
         "name": "simple_observable",
@@ -690,14 +710,9 @@
         "issues": "4"
     },
     {
-        "name": "from_css_color",
-        "url": "https://pub.dev/packages/from_css_color",
-        "issues": "0"
-    },
-    {
-        "name": "barcode_widget",
-        "url": "https://pub.dev/packages/barcode_widget",
-        "issues": "4"
+        "name": "buffer",
+        "url": "https://pub.dev/packages/buffer",
+        "issues": "3"
     },
     {
         "name": "contextmenu",
@@ -705,44 +720,9 @@
         "issues": null
     },
     {
-        "name": "file_selector",
-        "url": "https://pub.dev/packages/file_selector",
-        "issues": "0"
-    },
-    {
-        "name": "html_unescape",
-        "url": "https://pub.dev/packages/html_unescape",
-        "issues": "4"
-    },
-    {
-        "name": "zxing2",
-        "url": "https://pub.dev/packages/zxing2",
-        "issues": "8"
-    },
-    {
-        "name": "password_strength",
-        "url": "https://pub.dev/packages/password_strength",
-        "issues": "0"
-    },
-    {
         "name": "console",
         "url": "https://pub.dev/packages/console",
         "issues": "8"
-    },
-    {
-        "name": "scroll_pos",
-        "url": "https://pub.dev/packages/scroll_pos",
-        "issues": "0"
-    },
-    {
-        "name": "flutter_breadcrumb",
-        "url": "https://pub.dev/packages/flutter_breadcrumb",
-        "issues": "0"
-    },
-    {
-        "name": "sockjs_client_wrapper",
-        "url": "https://pub.dev/packages/sockjs_client_wrapper",
-        "issues": "0"
     },
     {
         "name": "maybe_just_nothing",
@@ -750,14 +730,19 @@
         "issues": "0"
     },
     {
-        "name": "buffer",
-        "url": "https://pub.dev/packages/buffer",
-        "issues": "3"
+        "name": "redux_dev_tools",
+        "url": "https://pub.dev/packages/redux_dev_tools",
+        "issues": "1"
     },
     {
         "name": "iregexp",
         "url": "https://pub.dev/packages/iregexp",
         "issues": "1"
+    },
+    {
+        "name": "zxing2",
+        "url": "https://pub.dev/packages/zxing2",
+        "issues": "8"
     },
     {
         "name": "unorm_dart",
@@ -770,8 +755,23 @@
         "issues": "0"
     },
     {
-        "name": "flutter_custom_cursor",
-        "url": "https://pub.dev/packages/flutter_custom_cursor",
+        "name": "password_strength",
+        "url": "https://pub.dev/packages/password_strength",
+        "issues": "0"
+    },
+    {
+        "name": "flutter_breadcrumb",
+        "url": "https://pub.dev/packages/flutter_breadcrumb",
+        "issues": "0"
+    },
+    {
+        "name": "scroll_pos",
+        "url": "https://pub.dev/packages/scroll_pos",
+        "issues": "0"
+    },
+    {
+        "name": "memoize",
+        "url": "https://pub.dev/packages/memoize",
         "issues": "1"
     },
     {
@@ -780,19 +780,9 @@
         "issues": "83"
     },
     {
-        "name": "redux_dev_tools",
-        "url": "https://pub.dev/packages/redux_dev_tools",
-        "issues": "1"
-    },
-    {
-        "name": "draggable_float_widget",
-        "url": "https://pub.dev/packages/draggable_float_widget",
-        "issues": "2"
-    },
-    {
         "name": "visibility_detector",
         "url": "https://pub.dev/packages/visibility_detector",
-        "issues": "209"
+        "issues": "208"
     },
     {
         "name": "cryptography",
@@ -800,14 +790,19 @@
         "issues": "41"
     },
     {
+        "name": "flutter_custom_cursor",
+        "url": "https://pub.dev/packages/flutter_custom_cursor",
+        "issues": "1"
+    },
+    {
         "name": "base58check",
         "url": "https://pub.dev/packages/base58check",
         "issues": "0"
     },
     {
-        "name": "memoize",
-        "url": "https://pub.dev/packages/memoize",
-        "issues": "1"
+        "name": "draggable_float_widget",
+        "url": "https://pub.dev/packages/draggable_float_widget",
+        "issues": "2"
     },
     {
         "name": "window_to_front",
@@ -820,6 +815,11 @@
         "issues": "2"
     },
     {
+        "name": "dnd",
+        "url": "https://pub.dev/packages/dnd",
+        "issues": "4"
+    },
+    {
         "name": "flutter_switch",
         "url": "https://pub.dev/packages/flutter_switch",
         "issues": "11"
@@ -828,6 +828,11 @@
         "name": "pull_to_refresh",
         "url": "https://pub.dev/packages/pull_to_refresh",
         "issues": "139"
+    },
+    {
+        "name": "opentracing",
+        "url": "https://pub.dev/packages/opentracing",
+        "issues": null
     },
     {
         "name": "transparent_image",
@@ -840,44 +845,14 @@
         "issues": "1"
     },
     {
-        "name": "xmlstream",
-        "url": "https://pub.dev/packages/xmlstream",
-        "issues": "0"
-    },
-    {
         "name": "diffutil_dart",
         "url": "https://pub.dev/packages/diffutil_dart",
         "issues": "4"
     },
     {
-        "name": "dnd",
-        "url": "https://pub.dev/packages/dnd",
-        "issues": "4"
-    },
-    {
-        "name": "opentracing",
-        "url": "https://pub.dev/packages/opentracing",
-        "issues": null
-    },
-    {
-        "name": "build_verify",
-        "url": "https://pub.dev/packages/build_verify",
-        "issues": "3"
-    },
-    {
-        "name": "gql_tristate_value",
-        "url": "https://pub.dev/packages/gql_tristate_value",
-        "issues": "59"
-    },
-    {
-        "name": "google_api_availability_platform_interface",
-        "url": "https://pub.dev/packages/google_api_availability_platform_interface",
+        "name": "xmlstream",
+        "url": "https://pub.dev/packages/xmlstream",
         "issues": "0"
-    },
-    {
-        "name": "another_flushbar",
-        "url": "https://pub.dev/packages/another_flushbar",
-        "issues": "30"
     },
     {
         "name": "cooky",
@@ -885,13 +860,18 @@
         "issues": null
     },
     {
-        "name": "clipboard",
-        "url": "https://pub.dev/packages/clipboard",
-        "issues": "14"
+        "name": "another_flushbar",
+        "url": "https://pub.dev/packages/another_flushbar",
+        "issues": "30"
     },
     {
-        "name": "crclib",
-        "url": "https://pub.dev/packages/crclib",
+        "name": "gql_tristate_value",
+        "url": "https://pub.dev/packages/gql_tristate_value",
+        "issues": "59"
+    },
+    {
+        "name": "build_verify",
+        "url": "https://pub.dev/packages/build_verify",
         "issues": "3"
     },
     {
@@ -900,9 +880,19 @@
         "issues": "0"
     },
     {
-        "name": "lcov_parser",
-        "url": "https://pub.dev/packages/lcov_parser",
+        "name": "clipboard",
+        "url": "https://pub.dev/packages/clipboard",
+        "issues": "14"
+    },
+    {
+        "name": "google_api_availability_platform_interface",
+        "url": "https://pub.dev/packages/google_api_availability_platform_interface",
         "issues": "0"
+    },
+    {
+        "name": "crclib",
+        "url": "https://pub.dev/packages/crclib",
+        "issues": "3"
     },
     {
         "name": "dotenv",
@@ -910,19 +900,14 @@
         "issues": "5"
     },
     {
-        "name": "hex",
-        "url": "https://pub.dev/packages/hex",
-        "issues": "0"
-    },
-    {
         "name": "infinite_listview",
         "url": "https://pub.dev/packages/infinite_listview",
         "issues": "4"
     },
     {
-        "name": "flip_card",
-        "url": "https://pub.dev/packages/flip_card",
-        "issues": "17"
+        "name": "hex",
+        "url": "https://pub.dev/packages/hex",
+        "issues": "0"
     },
     {
         "name": "expandable_page_view",
@@ -930,14 +915,14 @@
         "issues": "7"
     },
     {
-        "name": "otp",
-        "url": "https://pub.dev/packages/otp",
-        "issues": "1"
+        "name": "lcov_parser",
+        "url": "https://pub.dev/packages/lcov_parser",
+        "issues": "0"
     },
     {
-        "name": "flutter_portal",
-        "url": "https://pub.dev/packages/flutter_portal",
-        "issues": "0"
+        "name": "flip_card",
+        "url": "https://pub.dev/packages/flip_card",
+        "issues": "17"
     },
     {
         "name": "dispose_scope",
@@ -945,9 +930,9 @@
         "issues": "3"
     },
     {
-        "name": "fk_user_agent",
-        "url": "https://pub.dev/packages/fk_user_agent",
-        "issues": "5"
+        "name": "flutter_portal",
+        "url": "https://pub.dev/packages/flutter_portal",
+        "issues": "0"
     },
     {
         "name": "numberpicker",
@@ -955,14 +940,19 @@
         "issues": "29"
     },
     {
-        "name": "styled_text",
-        "url": "https://pub.dev/packages/styled_text",
-        "issues": "3"
-    },
-    {
         "name": "grinder",
         "url": "https://pub.dev/packages/grinder",
         "issues": "46"
+    },
+    {
+        "name": "otp",
+        "url": "https://pub.dev/packages/otp",
+        "issues": "1"
+    },
+    {
+        "name": "fk_user_agent",
+        "url": "https://pub.dev/packages/fk_user_agent",
+        "issues": "5"
     },
     {
         "name": "sasl_scram",
@@ -970,9 +960,14 @@
         "issues": "0"
     },
     {
+        "name": "styled_text",
+        "url": "https://pub.dev/packages/styled_text",
+        "issues": "3"
+    },
+    {
         "name": "flat_buffers",
         "url": "https://pub.dev/packages/flat_buffers",
-        "issues": "98"
+        "issues": "94"
     },
     {
         "name": "recursive_regex",
