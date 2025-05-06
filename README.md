@@ -2,6 +2,8 @@
 
 **Flutter Package Registry** is a community-driven project that tracks popular Flutter/Dart packages which are no longer actively maintained.
 
+# V2 Coming Soon!
+
 ## What It Does
 
 This tool identifies packages on [pub.dev](https://pub.dev/) that:
