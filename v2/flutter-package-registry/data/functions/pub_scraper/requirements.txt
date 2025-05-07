@@ -1,0 +1,7 @@
+firebase_functions~=0.1.0
+functions-framework
+google-cloud-firestore
+beautifulsoup4
+requests
+parsedatetime
+python-dateutil
