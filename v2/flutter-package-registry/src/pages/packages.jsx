@@ -22,6 +22,9 @@ function Packages(){
                 return (
                     <div className="post" key={post.id}>
                         <h3>{post.name}</h3>
+                        <p>Last Updated: {post.last_scraped}</p>
+                        <p>Issues: {post.issues}</p>
+                        <a href={post.url} target="_blank">Link</a>
                     </div>
                 );
             })}
