@@ -1,6 +1,6 @@
 import { auth, db } from "../firebase-config";
 import React, { useEffect, useState } from "react";
-import { doc, getDoc } from "firebase/firestore";
+import { arrayRemove, doc, getDoc, updateDoc } from "firebase/firestore";
 
 function Profile(){
 
@@ -32,15 +32,26 @@ function Profile(){
             }
         }, []);
 
+    const deleteFavoriate = async (name) => {
+        await updateDoc(usersCollectionsRef, {
+            favorites: arrayRemove(name)
+        });
+
+        setFavoritesList(favoritesList.filter((fav) => fav !== name));
+    }
+    
+
     return <div>
-        <h1>Welcome {name}</h1>
+        <h1>User: {name}</h1>
         <h2>Your Favorites: </h2>
         {favoritesList.length > 0 ? (
-            <ul>
-            {favoritesList.map((favorite) => (
-                <li key={favorite.id}>{favorite.name}</li>
-            ))}
-            </ul>
+            <div>
+                {favoritesList.map((favorite) => (
+                    <div key={favorite.id}>
+                        <div>{favorite.name} - Issues: {favorite.issues} - <a href={favorite.url} target="_blank">Link</a> <button onClick={() => deleteFavoriate(favorite)}>Delete</button></div> 
+                    </div>
+                ))}
+            </div>
         ) : (
             <p>No favorites found yet.</p>
         )}
