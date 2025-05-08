@@ -97,13 +97,13 @@ function Packages() {
     }
     
     //Pagination
-    const itemsPerPage = 10; //How many packages per page
+    const itemsPerPage = 9; //How many packages per page
 
     const indexOfLastItem = currentPage * itemsPerPage;
     const indexOfFirstItem = indexOfLastItem - itemsPerPage;
     const currentPackages = sortedPackages.slice(indexOfFirstItem, indexOfLastItem);
 
-    const totalPages = Math.ceil(packageList.length / itemsPerPage);
+    const totalPages = Math.ceil(filteredPackages.length / itemsPerPage);
 
     const goToNextPage = () => {
         if (currentPage < totalPages) {
@@ -119,49 +119,66 @@ function Packages() {
 
     return (
         <div>
-            <h1>Packages Page</h1>
-            <input
-                type="text"
-                placeholder="Search packages..."
-                value={searchQuery}
-                onChange={(e) => {
-                    setSearchQuery(e.target.value);
-                    setCurrentPage(1); // Reset to first page when searching
-                }}
-                style={{ padding: "8px", marginBottom: "20px", width: "100%" }}
-            />
-            <button
-                onClick={() => {
-                    if (sortOrder === "default") setSortOrder("asc");
-                    else if (sortOrder === "asc") setSortOrder("desc");
-                    else setSortOrder("default");
-                    setCurrentPage(1); 
-                }}
-            >
-                Sort by Issues: {sortOrder === "asc" ? "Ascending" : sortOrder === "desc" ? "Descending" : "Default"}
-            </button>
-            {currentPackages.map((post) => {
-                const isFavorite = isPackageInFavorites(post.name, post.issues, post.url);
-                return (
-                    <div className="post" key={post.id}>
-                        <h3>{post.name}</h3>
-                        <p>Last Updated: {post.last_scraped}</p>
-                        <p>Issues: {post.issues}</p>
-                        <a href={post.url} target="_blank" rel="noopener noreferrer">Link</a>
-                        <button onClick={() => toggleFavorite(post.name, post.issues, post.url)}>
-                            {isFavorite ? "Remove from Favorites" : "Add to Favorites"}
-                        </button>
-                    </div>
-                );
-            })}
-            <div style={{ marginTop: '20px' }}>
-                <button onClick={goToPreviousPage} disabled={currentPage === 1}>
+            <h1 class="packages-header">Flutter Packages</h1>
+            <section class="search-sort">
+                <input
+                    type="text"
+                    placeholder="Search packages..."
+                    
+                    value={searchQuery}
+                    onChange={(e) => {
+                        setSearchQuery(e.target.value);
+                        setCurrentPage(1); 
+                    }}
+                    class="search-input"
+                />
+                <div class="sort-buttons">
+                    <button
+                        class="sort-btn"
+                        onClick={() => {
+                            if (sortOrder === "default") setSortOrder("asc");
+                            else if (sortOrder === "asc") setSortOrder("desc");
+                            else setSortOrder("default");
+                            setCurrentPage(1); 
+                        }}
+                    >
+                        Sort by Issues: {sortOrder === "asc" ? "Ascending" : sortOrder === "desc" ? "Descending" : "Default"}
+                    </button>
+                </div>
+            </section>
+            <section class="card-container">
+                {currentPackages.map((post) => {
+                    const isFavorite = isPackageInFavorites(post.name, post.issues, post.url);
+                    return (
+                        <div className="card" key={post.id}>
+                            <h3>{post.name}</h3>
+                            <p>Last Updated: {post.last_scraped}</p>
+                            <p>Issues: {post.issues}</p>
+                            <a href={post.url} target="_blank" rel="noopener noreferrer">Package Page</a><br/>
+                            <i
+                                className={isFavorite ? "fas fa-heart" : "far fa-heart"}
+                                style={{
+                                    color: isFavorite ? "red" : "gray",
+                                    cursor: "pointer",
+                                    fontSize: "20px",
+                                    position: "absolute", // Positioned absolutely
+                                    top: "10px",          // 10px from the top of the card
+                                    right: "10px"         // 10px from the right of the card
+                                }}
+                                onClick={() => toggleFavorite(post.name, post.issues, post.url)}
+                            ></i>
+                        </div>
+                    );
+                })}
+            </section>
+            <div class="pagination">
+                <button class="page-btn" onClick={goToPreviousPage} disabled={currentPage === 1}>
                     Previous
                 </button>
                 <span style={{ margin: '0 10px' }}>
                     Page {currentPage} of {totalPages}
                 </span>
-                <button onClick={goToNextPage} disabled={currentPage === totalPages}>
+                <button class="page-btn" onClick={goToNextPage} disabled={currentPage === totalPages}>
                     Next
                 </button>
             </div>

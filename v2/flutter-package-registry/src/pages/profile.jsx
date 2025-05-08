@@ -41,21 +41,26 @@ function Profile(){
     }
     
 
-    return <div>
-        <h1>User: {name}</h1>
-        <h2>Your Favourites: </h2>
-        {favoritesList.length > 0 ? (
-            <div>
-                {favoritesList.map((favorite) => (
-                    <div key={favorite.id}>
-                        <div>{favorite.name} - Issues: {favorite.issues} - <a href={favorite.url} target="_blank">Link</a> <button onClick={() => deleteFavoriate(favorite)}>Delete</button></div> 
+    return <div className="profile-container">
+    <h1>Hello {name}</h1>
+    <h2>Favourites</h2>
+
+    {favoritesList.length > 0 ? (
+        <div className="favorites-list">
+            {favoritesList.map((favorite, index) => (
+                <div className="favorite-card" key={index}>
+                    <div className="favorite-content">
+                    <div><strong>{favorite.name}</strong> - Issues: {favorite.issues}</div>
+                    <a href={favorite.url} target="_blank" rel="noopener noreferrer">Visit Package Page</a>
                     </div>
-                ))}
-            </div>
-        ) : (
-            <p>No favorites found yet.</p>
-        )}
-    </div>;
+                    <button className="delete-btn" onClick={() => deleteFavoriate(favorite)}>Delete</button>
+              </div>
+            ))}
+        </div>
+    ) : (
+        <p className="no-favorites">No favorites found yet.</p>
+    )}
+</div>
 }
 
 export default Profile;

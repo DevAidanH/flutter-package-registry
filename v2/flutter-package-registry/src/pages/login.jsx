@@ -14,10 +14,14 @@ function Login({setIsAuth}){
         })
     }   
 
-    return <div>
+    return <div className="login-container">
+    <div className="login-card">
         <p>Sign in with Google</p>
-        <button onClick={signInWithGoogle}>Sign In with Google</button>
-    </div>;
+        <button className="login-button" onClick={signInWithGoogle}>
+            Sign In with Google
+        </button>
+    </div>
+</div>
 }
 
 export default Login;

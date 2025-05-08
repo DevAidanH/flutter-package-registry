@@ -1,0 +1,351 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: #e74c3c;
+    --background-color: #f5f5f5;
+    --text-color: #333;
+    --footer-background: #2c3e50;
+    --link-color: var(--primary-color);
+    --link-hover-color: var(--secondary-color);
+    --button-hover-color: #2980b9;
+    --border-radius: 8px;
+    --card-shadow: rgba(0, 0, 0, 0.1);
+    --danger-color: #e74c3c;
+    --danger-hover: #c0392b;
+    --card-background: #ffffff;
+}
+
+/* Global Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navbar */
+nav {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: var(--secondary-color);
+}
+
+/* Main layout */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    flex-grow: 1;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+main p{
+    margin-top: 20px;
+}
+
+/* Buttons */
+button,
+.sort-btn,
+.page-btn,
+.delete-btn,
+.login-button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+.sort-btn:hover,
+.page-btn:hover,
+.login-button:hover {
+    background-color: var(--button-hover-color);
+}
+
+.delete-btn {
+    background-color: var(--danger-color);
+    font-size: 14px;
+    width: fit-content;
+}
+
+.delete-btn:hover {
+    background-color: var(--danger-hover);
+}
+
+/* Cards */
+.card-container,
+.section-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.card,
+.section-grid .card,
+.favorite-card,
+.login-card {
+    background-color: var(--card-background);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px var(--card-shadow);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover,
+.favorite-card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3,
+.section-grid .card h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.card p,
+.section-grid .card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.card a,
+.favorite-card a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.card a:hover,
+.favorite-card a:hover {
+    text-decoration: underline;
+}
+
+/*Package page specific card*/
+.card{
+    position: relative;
+}
+
+/* Favorites/Profile */
+.favorite-card {
+    background-color: var(--card-background);
+    padding: 15px 20px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px var(--card-shadow);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    transition: transform 0.2s ease;
+    gap: 20px;
+}
+
+.favorite-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1; /* Takes remaining space */
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.profile-container h1,
+.profile-container h2 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.favorites-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.no-favorites {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #666;
+}
+
+/* Login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+    background-color: var(--background-color);
+}
+
+.login-card {
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-card p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: var(--border-radius);
+}
+
+/* Search & Sort */
+.search-sort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.search-input {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: var(--border-radius);
+    border: 1px solid #ccc;
+}
+
+.sort-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.packages-header {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: var(--primary-color);
+}
+
+/* Footer */
+footer {
+    background-color: var(--footer-background);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 40px;
+    margin-top: auto; 
+}
+
+.git-link {
+    color: white;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.git-link:hover {
+    color: var(--secondary-color);
+}
+
+.credits span{
+    color: var(--secondary-color);
+} 
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    button {
+        width: 100%;
+    }
+}
