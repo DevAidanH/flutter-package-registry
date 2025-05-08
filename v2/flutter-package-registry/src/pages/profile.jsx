@@ -1,31 +1,35 @@
 import { auth, db } from "../firebase-config";
 import React, { useEffect, useState } from "react";
-import { collection, getDocs, query, where } from "firebase/firestore";
+import { doc, getDoc } from "firebase/firestore";
 
 function Profile(){
 
-    const [favoritesList, setfavoritesList] = useState([]);
+    const [favoritesList, setFavoritesList] = useState([]);
     const [name, setName] = useState("");
 
-    const packagesCollectionsRef = collection(db, "users");
+    const usersCollectionsRef = doc(db, "users", auth.currentUser.uid);
 
     useEffect (() => {
             const name =  auth.currentUser.displayName
             setName(name)
 
             const getFavorites = async () => {
-                const q = query(packagesCollectionsRef, where("uid", "==", auth.currentUser.uid));
-                const data = await getDocs(q);
-                if (!data.empty) {
-                    setFavoritesList(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-                } else {
-                    setFavoritesList([]);
+                const docSnap = await getDoc(usersCollectionsRef);
+
+                if (docSnap.exists()) {
+                    const userData = docSnap.data();
+
+                    if (userData.favorites) {
+                    setFavoritesList(userData.favorites);
+                    } else {
+                    setFavoritesList([]); 
+                    };
                 }
-              };
-              
-              if (auth.currentUser) {
+            }
+
+            if (auth.currentUser) {
                 getFavorites();
-              }
+            }
         }, []);
 
     return <div>
