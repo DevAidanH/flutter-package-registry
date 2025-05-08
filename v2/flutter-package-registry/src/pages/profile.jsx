@@ -43,7 +43,7 @@ function Profile(){
 
     return <div>
         <h1>User: {name}</h1>
-        <h2>Your Favorites: </h2>
+        <h2>Your Favourites: </h2>
         {favoritesList.length > 0 ? (
             <div>
                 {favoritesList.map((favorite) => (
