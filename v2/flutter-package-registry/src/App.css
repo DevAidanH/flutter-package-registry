@@ -44,8 +44,9 @@ nav {
     color: white;
     padding: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
+    z-index: 2;
 }
 
 nav ul {
@@ -97,8 +98,7 @@ main p{
 button,
 .sort-btn,
 .page-btn,
-.delete-btn,
-.login-button {
+.delete-btn{
     background-color: var(--primary-color);
     color: white;
     padding: 10px 20px;
@@ -111,8 +111,7 @@ button,
 
 button:hover,
 .sort-btn:hover,
-.page-btn:hover,
-.login-button:hover {
+.page-btn:hover {
     background-color: var(--button-hover-color);
 }
 
@@ -242,13 +241,44 @@ button:hover,
 }
 
 .login-card {
+    background-color: var(--card-background);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 12px var(--card-shadow);
+    text-align: center;
     max-width: 400px;
     width: 100%;
 }
 
-.login-card p {
-    font-size: 18px;
-    margin-bottom: 20px;
+.login-title {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.login-description {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+
+.login-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.login-btn {
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+}
+
+.login-note {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* Pagination */
@@ -296,9 +326,16 @@ footer {
     background-color: var(--footer-background);
     color: white;
     text-align: center;
-    padding: 1rem;
-    margin-top: 40px;
+    padding: 3rem;
     margin-top: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-disclaimer{
+    width: 50%;
+    min-width: 300px;
 }
 
 .git-link {
@@ -315,16 +352,43 @@ footer {
     color: var(--secondary-color);
 } 
 
+/* Responsive Nav Menu */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.logout-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    color: var(--secondary-color);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
-    nav ul {
+    .section-grid {
         flex-direction: column;
         align-items: center;
     }
 
-    .section-grid {
-        flex-direction: column;
-        align-items: center;
+    .hero{
+        padding: 20px;
     }
 
     .hero h1 {
@@ -334,7 +398,39 @@ footer {
     .hero p {
         font-size: 1rem;
     }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: var(--primary-color);
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .search-sort {
+        flex-direction: column;
+    }
+    .search-input{
+        margin-bottom: 20px;
+    }
 }
+
 
 @media (max-width: 480px) {
     .hero h1 {
