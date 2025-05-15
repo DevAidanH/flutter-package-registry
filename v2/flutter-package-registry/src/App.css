@@ -156,14 +156,14 @@ button:hover,
 .card h3,
 .section-grid .card h3 {
     color: var(--primary-color);
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 18px;
 }
 
 .card p,
 .section-grid .card p {
     font-size: 14px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .card a,
@@ -181,6 +181,14 @@ button:hover,
 /*Package page specific card*/
 .card{
     position: relative;
+    width: 300px;
+    overflow: hidden;
+}
+
+.card-last-update{
+    color: var(--footer-background);
+    font-size: 10px !important; 
+    margin-top: 15px;
 }
 
 /* Favorites/Profile */
@@ -428,6 +436,9 @@ footer {
     }
     .search-input{
         margin-bottom: 20px;
+    }
+    .page-btn{
+        width: 100px;
     }
 }
 

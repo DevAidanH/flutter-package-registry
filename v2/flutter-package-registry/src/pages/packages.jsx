@@ -146,13 +146,12 @@ function Packages() {
                     </button>
                 </div>
             </section>
-            <section class="card-container">
+            <section className="card-container">
                 {currentPackages.map((post) => {
                     const isFavorite = isPackageInFavorites(post.name, post.issues, post.url);
                     return (
                         <div className="card" key={post.id}>
                             <h3>{post.name}</h3>
-                            <p>Last Updated: {post.last_scraped}</p>
                             <p>Issues: {post.issues}</p>
                             <a href={post.url} target="_blank" rel="noopener noreferrer">Package Page</a><br/>
                             <i
@@ -161,12 +160,13 @@ function Packages() {
                                     color: isFavorite ? "red" : "gray",
                                     cursor: "pointer",
                                     fontSize: "20px",
-                                    position: "absolute", // Positioned absolutely
-                                    top: "10px",          // 10px from the top of the card
-                                    right: "10px"         // 10px from the right of the card
+                                    position: "absolute", 
+                                    top: "10px",          
+                                    right: "10px"         
                                 }}
                                 onClick={() => toggleFavorite(post.name, post.issues, post.url)}
                             ></i>
+                            <p className="card-last-update">Last Updated: {post.last_scraped}</p>
                         </div>
                     );
                 })}
