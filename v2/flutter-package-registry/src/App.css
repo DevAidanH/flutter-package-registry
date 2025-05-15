@@ -1,17 +1,17 @@
 :root {
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
-    --accent-color: #e74c3c;
-    --background-color: #f5f5f5;
-    --text-color: #333;
-    --footer-background: #2c3e50;
+    --primary-color: #2563eb;
+    --secondary-color: #22c55e;
+    --accent-color: #f59e0b;
+    --background-color: #f3f4f6;
+    --text-color: #111827;
+    --footer-background: #1f2937;
     --link-color: var(--primary-color);
     --link-hover-color: var(--secondary-color);
-    --button-hover-color: #2980b9;
-    --border-radius: 8px;
-    --card-shadow: rgba(0, 0, 0, 0.1);
-    --danger-color: #e74c3c;
-    --danger-hover: #c0392b;
+    --button-hover-color: #1d4ed8;
+    --border-radius: 6px;
+    --card-shadow: rgba(0, 0, 0, 0.06);
+    --danger-color: #ef4444;
+    --danger-hover: #b91c1c;
     --card-background: #ffffff;
 }
 
