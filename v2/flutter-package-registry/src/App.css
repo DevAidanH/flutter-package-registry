@@ -94,6 +94,14 @@ main p{
     margin-top: 20px;
 }
 
+.highlights{
+    margin-top: 30px;
+}
+
+.highlights .card-container .card p{
+    margin-top: 5px;
+}
+
 /* Buttons */
 button,
 .sort-btn,
@@ -163,7 +171,7 @@ button:hover,
 .card p,
 .section-grid .card p {
     font-size: 14px;
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
 }
 
 .card a,

@@ -10,7 +10,6 @@ function Packages() {
     const [currentPage, setCurrentPage] = useState(1);
 
     const packagesCollectionsRef = collection(db, "packages");
-    const usersCollectionsRef = collection(db, "users");
 
     useEffect(() => {
         // Fetch packages and set the package list
