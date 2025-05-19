@@ -45,14 +45,14 @@
         "issues": "4"
     },
     {
-        "name": "nested",
-        "url": "https://pub.dev/packages/nested",
-        "issues": "1"
-    },
-    {
         "name": "built_collection",
         "url": "https://pub.dev/packages/built_collection",
         "issues": "18"
+    },
+    {
+        "name": "nested",
+        "url": "https://pub.dev/packages/nested",
+        "issues": "1"
     },
     {
         "name": "plugin_platform_interface",
@@ -100,14 +100,19 @@
         "issues": "17"
     },
     {
+        "name": "ci",
+        "url": "https://pub.dev/packages/ci",
+        "issues": "0"
+    },
+    {
         "name": "qr_flutter",
         "url": "https://pub.dev/packages/qr_flutter",
         "issues": "36"
     },
     {
-        "name": "ci",
-        "url": "https://pub.dev/packages/ci",
-        "issues": "0"
+        "name": "cli_config",
+        "url": "https://pub.dev/packages/cli_config",
+        "issues": "530"
     },
     {
         "name": "diff_match_patch",
@@ -120,11 +125,6 @@
         "issues": "23"
     },
     {
-        "name": "cli_config",
-        "url": "https://pub.dev/packages/cli_config",
-        "issues": "528"
-    },
-    {
         "name": "scrollable_positioned_list",
         "url": "https://pub.dev/packages/scrollable_positioned_list",
         "issues": "208"
@@ -135,14 +135,14 @@
         "issues": "5"
     },
     {
-        "name": "system_info2",
-        "url": "https://pub.dev/packages/system_info2",
-        "issues": "8"
-    },
-    {
         "name": "retry",
         "url": "https://pub.dev/packages/retry",
         "issues": "19"
+    },
+    {
+        "name": "system_info2",
+        "url": "https://pub.dev/packages/system_info2",
+        "issues": "8"
     },
     {
         "name": "ini",
@@ -185,11 +185,6 @@
         "issues": "2"
     },
     {
-        "name": "global_assert",
-        "url": "https://pub.dev/packages/global_assert",
-        "issues": "1"
-    },
-    {
         "name": "recase",
         "url": "https://pub.dev/packages/recase",
         "issues": "11"
@@ -198,6 +193,11 @@
         "name": "google_fonts",
         "url": "https://pub.dev/packages/google_fonts",
         "issues": "65"
+    },
+    {
+        "name": "global_assert",
+        "url": "https://pub.dev/packages/global_assert",
+        "issues": "1"
     },
     {
         "name": "tuple",
@@ -235,11 +235,6 @@
         "issues": "29"
     },
     {
-        "name": "flutter_keyboard_visibility",
-        "url": "https://pub.dev/packages/flutter_keyboard_visibility",
-        "issues": "29"
-    },
-    {
         "name": "flutter_keyboard_visibility_linux",
         "url": "https://pub.dev/packages/flutter_keyboard_visibility_linux",
         "issues": "29"
@@ -247,6 +242,11 @@
     {
         "name": "flutter_keyboard_visibility_macos",
         "url": "https://pub.dev/packages/flutter_keyboard_visibility_macos",
+        "issues": "29"
+    },
+    {
+        "name": "flutter_keyboard_visibility",
+        "url": "https://pub.dev/packages/flutter_keyboard_visibility",
         "issues": "29"
     },
     {
@@ -275,14 +275,14 @@
         "issues": "16"
     },
     {
-        "name": "encrypt",
-        "url": "https://pub.dev/packages/encrypt",
-        "issues": "86"
-    },
-    {
         "name": "version",
         "url": "https://pub.dev/packages/version",
         "issues": "3"
+    },
+    {
+        "name": "encrypt",
+        "url": "https://pub.dev/packages/encrypt",
+        "issues": "86"
     },
     {
         "name": "animations",
@@ -305,11 +305,6 @@
         "issues": "20"
     },
     {
-        "name": "dropdown_button2",
-        "url": "https://pub.dev/packages/dropdown_button2",
-        "issues": "39"
-    },
-    {
         "name": "sanitize_html",
         "url": "https://pub.dev/packages/sanitize_html",
         "issues": "19"
@@ -318,6 +313,11 @@
         "name": "color",
         "url": "https://pub.dev/packages/color",
         "issues": "3"
+    },
+    {
+        "name": "dropdown_button2",
+        "url": "https://pub.dev/packages/dropdown_button2",
+        "issues": "39"
     },
     {
         "name": "hashcodes",
@@ -330,19 +330,14 @@
         "issues": "8"
     },
     {
-        "name": "dartx",
-        "url": "https://pub.dev/packages/dartx",
-        "issues": "19"
-    },
-    {
         "name": "list_counter",
         "url": "https://pub.dev/packages/list_counter",
         "issues": "0"
     },
     {
-        "name": "dartz",
-        "url": "https://pub.dev/packages/dartz",
-        "issues": "22"
+        "name": "dartx",
+        "url": "https://pub.dev/packages/dartx",
+        "issues": "19"
     },
     {
         "name": "mask_text_input_formatter",
@@ -350,9 +345,9 @@
         "issues": "6"
     },
     {
-        "name": "flutter_gallery_assets",
-        "url": "https://pub.dev/packages/flutter_gallery_assets",
-        "issues": null
+        "name": "dartz",
+        "url": "https://pub.dev/packages/dartz",
+        "issues": "23"
     },
     {
         "name": "hive_flutter",
@@ -360,14 +355,19 @@
         "issues": null
     },
     {
-        "name": "scoped_model",
-        "url": "https://pub.dev/packages/scoped_model",
-        "issues": "18"
+        "name": "flutter_gallery_assets",
+        "url": "https://pub.dev/packages/flutter_gallery_assets",
+        "issues": null
     },
     {
         "name": "simple_gesture_detector",
         "url": "https://pub.dev/packages/simple_gesture_detector",
         "issues": "0"
+    },
+    {
+        "name": "scoped_model",
+        "url": "https://pub.dev/packages/scoped_model",
+        "issues": "18"
     },
     {
         "name": "pin_code_fields",
@@ -435,14 +435,14 @@
         "issues": "15"
     },
     {
-        "name": "tint",
-        "url": "https://pub.dev/packages/tint",
+        "name": "rfc_6901",
+        "url": "https://pub.dev/packages/rfc_6901",
         "issues": "0"
     },
     {
-        "name": "build_cli_annotations",
-        "url": "https://pub.dev/packages/build_cli_annotations",
-        "issues": "2"
+        "name": "tint",
+        "url": "https://pub.dev/packages/tint",
+        "issues": "0"
     },
     {
         "name": "adaptive_number",
@@ -455,14 +455,14 @@
         "issues": "0"
     },
     {
-        "name": "rfc_6901",
-        "url": "https://pub.dev/packages/rfc_6901",
-        "issues": "0"
-    },
-    {
         "name": "scroll_to_index",
         "url": "https://pub.dev/packages/scroll_to_index",
         "issues": "16"
+    },
+    {
+        "name": "build_cli_annotations",
+        "url": "https://pub.dev/packages/build_cli_annotations",
+        "issues": "2"
     },
     {
         "name": "flutter_rating_bar",
@@ -470,24 +470,14 @@
         "issues": "36"
     },
     {
-        "name": "extension",
-        "url": "https://pub.dev/packages/extension",
-        "issues": "9"
-    },
-    {
         "name": "latlong2",
         "url": "https://pub.dev/packages/latlong2",
         "issues": "5"
     },
     {
-        "name": "uni_links_platform_interface",
-        "url": "https://pub.dev/packages/uni_links_platform_interface",
-        "issues": "113"
-    },
-    {
-        "name": "uni_links_web",
-        "url": "https://pub.dev/packages/uni_links_web",
-        "issues": "113"
+        "name": "extension",
+        "url": "https://pub.dev/packages/extension",
+        "issues": "9"
     },
     {
         "name": "scratch_space",
@@ -505,6 +495,16 @@
         "issues": "53"
     },
     {
+        "name": "uni_links_platform_interface",
+        "url": "https://pub.dev/packages/uni_links_platform_interface",
+        "issues": "113"
+    },
+    {
+        "name": "uni_links_web",
+        "url": "https://pub.dev/packages/uni_links_web",
+        "issues": "113"
+    },
+    {
         "name": "easy_debounce",
         "url": "https://pub.dev/packages/easy_debounce",
         "issues": "6"
@@ -513,11 +513,6 @@
         "name": "jwt_decode",
         "url": "https://pub.dev/packages/jwt_decode",
         "issues": "2"
-    },
-    {
-        "name": "type_plus",
-        "url": "https://pub.dev/packages/type_plus",
-        "issues": "1"
     },
     {
         "name": "one_of",
@@ -535,14 +530,19 @@
         "issues": null
     },
     {
-        "name": "qr_code_scanner",
-        "url": "https://pub.dev/packages/qr_code_scanner",
-        "issues": "183"
+        "name": "type_plus",
+        "url": "https://pub.dev/packages/type_plus",
+        "issues": "1"
     },
     {
         "name": "modal_bottom_sheet",
         "url": "https://pub.dev/packages/modal_bottom_sheet",
         "issues": "139"
+    },
+    {
+        "name": "qr_code_scanner",
+        "url": "https://pub.dev/packages/qr_code_scanner",
+        "issues": "183"
     },
     {
         "name": "flutter_linkify",
@@ -555,19 +555,14 @@
         "issues": "2"
     },
     {
-        "name": "flutter_parsed_text",
-        "url": "https://pub.dev/packages/flutter_parsed_text",
-        "issues": "16"
-    },
-    {
         "name": "colorize",
         "url": "https://pub.dev/packages/colorize",
         "issues": "4"
     },
     {
-        "name": "base32",
-        "url": "https://pub.dev/packages/base32",
-        "issues": "0"
+        "name": "flutter_parsed_text",
+        "url": "https://pub.dev/packages/flutter_parsed_text",
+        "issues": "16"
     },
     {
         "name": "testreport",
@@ -575,8 +570,8 @@
         "issues": "0"
     },
     {
-        "name": "after_layout",
-        "url": "https://pub.dev/packages/after_layout",
+        "name": "base32",
+        "url": "https://pub.dev/packages/base32",
         "issues": "0"
     },
     {
@@ -585,14 +580,9 @@
         "issues": "0"
     },
     {
-        "name": "mgrs_dart",
-        "url": "https://pub.dev/packages/mgrs_dart",
-        "issues": "0"
-    },
-    {
-        "name": "bot_toast",
-        "url": "https://pub.dev/packages/bot_toast",
-        "issues": "1"
+        "name": "redux",
+        "url": "https://pub.dev/packages/redux",
+        "issues": "9"
     },
     {
         "name": "resizable_widget",
@@ -600,19 +590,24 @@
         "issues": "12"
     },
     {
+        "name": "mgrs_dart",
+        "url": "https://pub.dev/packages/mgrs_dart",
+        "issues": "0"
+    },
+    {
         "name": "proj4dart",
         "url": "https://pub.dev/packages/proj4dart",
         "issues": "1"
     },
     {
-        "name": "redux",
-        "url": "https://pub.dev/packages/redux",
-        "issues": "9"
+        "name": "after_layout",
+        "url": "https://pub.dev/packages/after_layout",
+        "issues": "0"
     },
     {
         "name": "flutter_typeahead",
         "url": "https://pub.dev/packages/flutter_typeahead",
-        "issues": "22"
+        "issues": "21"
     },
     {
         "name": "junitreport",
@@ -625,19 +620,14 @@
         "issues": "0"
     },
     {
+        "name": "bot_toast",
+        "url": "https://pub.dev/packages/bot_toast",
+        "issues": "1"
+    },
+    {
         "name": "interact",
         "url": "https://pub.dev/packages/interact",
         "issues": "5"
-    },
-    {
-        "name": "jose",
-        "url": "https://pub.dev/packages/jose",
-        "issues": "5"
-    },
-    {
-        "name": "toggle_switch",
-        "url": "https://pub.dev/packages/toggle_switch",
-        "issues": "7"
     },
     {
         "name": "cli_repl",
@@ -645,14 +635,14 @@
         "issues": "3"
     },
     {
+        "name": "jose",
+        "url": "https://pub.dev/packages/jose",
+        "issues": "5"
+    },
+    {
         "name": "http_mock_adapter",
         "url": "https://pub.dev/packages/http_mock_adapter",
         "issues": "18"
-    },
-    {
-        "name": "http_methods",
-        "url": "https://pub.dev/packages/http_methods",
-        "issues": "19"
     },
     {
         "name": "network_image_mock",
@@ -660,24 +650,14 @@
         "issues": "6"
     },
     {
-        "name": "image_gallery_saver",
-        "url": "https://pub.dev/packages/image_gallery_saver",
-        "issues": "77"
+        "name": "toggle_switch",
+        "url": "https://pub.dev/packages/toggle_switch",
+        "issues": "7"
     },
     {
-        "name": "shelf_router",
-        "url": "https://pub.dev/packages/shelf_router",
-        "issues": "61"
-    },
-    {
-        "name": "barcode_widget",
-        "url": "https://pub.dev/packages/barcode_widget",
-        "issues": "4"
-    },
-    {
-        "name": "from_css_color",
-        "url": "https://pub.dev/packages/from_css_color",
-        "issues": "0"
+        "name": "http_methods",
+        "url": "https://pub.dev/packages/http_methods",
+        "issues": "19"
     },
     {
         "name": "sockjs_client_wrapper",
@@ -685,9 +665,59 @@
         "issues": "0"
     },
     {
+        "name": "image_gallery_saver",
+        "url": "https://pub.dev/packages/image_gallery_saver",
+        "issues": "77"
+    },
+    {
+        "name": "barcode_widget",
+        "url": "https://pub.dev/packages/barcode_widget",
+        "issues": "4"
+    },
+    {
+        "name": "shelf_router",
+        "url": "https://pub.dev/packages/shelf_router",
+        "issues": "61"
+    },
+    {
         "name": "html_unescape",
         "url": "https://pub.dev/packages/html_unescape",
         "issues": "4"
+    },
+    {
+        "name": "redux_dev_tools",
+        "url": "https://pub.dev/packages/redux_dev_tools",
+        "issues": "1"
+    },
+    {
+        "name": "file_selector",
+        "url": "https://pub.dev/packages/file_selector",
+        "issues": "0"
+    },
+    {
+        "name": "from_css_color",
+        "url": "https://pub.dev/packages/from_css_color",
+        "issues": "0"
+    },
+    {
+        "name": "console",
+        "url": "https://pub.dev/packages/console",
+        "issues": "8"
+    },
+    {
+        "name": "memoize",
+        "url": "https://pub.dev/packages/memoize",
+        "issues": "1"
+    },
+    {
+        "name": "maybe_just_nothing",
+        "url": "https://pub.dev/packages/maybe_just_nothing",
+        "issues": "0"
+    },
+    {
+        "name": "iregexp",
+        "url": "https://pub.dev/packages/iregexp",
+        "issues": "1"
     },
     {
         "name": "settings_ui",
@@ -695,9 +725,14 @@
         "issues": "21"
     },
     {
-        "name": "file_selector",
-        "url": "https://pub.dev/packages/file_selector",
-        "issues": "0"
+        "name": "cryptography",
+        "url": "https://pub.dev/packages/cryptography",
+        "issues": "41"
+    },
+    {
+        "name": "visibility_detector",
+        "url": "https://pub.dev/packages/visibility_detector",
+        "issues": "208"
     },
     {
         "name": "simple_observable",
@@ -710,6 +745,16 @@
         "issues": "4"
     },
     {
+        "name": "mutex",
+        "url": "https://pub.dev/packages/mutex",
+        "issues": "0"
+    },
+    {
+        "name": "get_storage",
+        "url": "https://pub.dev/packages/get_storage",
+        "issues": "83"
+    },
+    {
         "name": "buffer",
         "url": "https://pub.dev/packages/buffer",
         "issues": "3"
@@ -720,24 +765,19 @@
         "issues": null
     },
     {
-        "name": "console",
-        "url": "https://pub.dev/packages/console",
-        "issues": "8"
+        "name": "unorm_dart",
+        "url": "https://pub.dev/packages/unorm_dart",
+        "issues": "7"
     },
     {
-        "name": "maybe_just_nothing",
-        "url": "https://pub.dev/packages/maybe_just_nothing",
+        "name": "dnd",
+        "url": "https://pub.dev/packages/dnd",
+        "issues": "4"
+    },
+    {
+        "name": "base58check",
+        "url": "https://pub.dev/packages/base58check",
         "issues": "0"
-    },
-    {
-        "name": "redux_dev_tools",
-        "url": "https://pub.dev/packages/redux_dev_tools",
-        "issues": "1"
-    },
-    {
-        "name": "iregexp",
-        "url": "https://pub.dev/packages/iregexp",
-        "issues": "1"
     },
     {
         "name": "zxing2",
@@ -745,14 +785,9 @@
         "issues": "8"
     },
     {
-        "name": "unorm_dart",
-        "url": "https://pub.dev/packages/unorm_dart",
-        "issues": "7"
-    },
-    {
-        "name": "mutex",
-        "url": "https://pub.dev/packages/mutex",
-        "issues": "0"
+        "name": "opentracing",
+        "url": "https://pub.dev/packages/opentracing",
+        "issues": null
     },
     {
         "name": "password_strength",
@@ -765,48 +800,13 @@
         "issues": "0"
     },
     {
+        "name": "cooky",
+        "url": "https://pub.dev/packages/cooky",
+        "issues": null
+    },
+    {
         "name": "scroll_pos",
         "url": "https://pub.dev/packages/scroll_pos",
-        "issues": "0"
-    },
-    {
-        "name": "memoize",
-        "url": "https://pub.dev/packages/memoize",
-        "issues": "1"
-    },
-    {
-        "name": "get_storage",
-        "url": "https://pub.dev/packages/get_storage",
-        "issues": "83"
-    },
-    {
-        "name": "visibility_detector",
-        "url": "https://pub.dev/packages/visibility_detector",
-        "issues": "208"
-    },
-    {
-        "name": "cryptography",
-        "url": "https://pub.dev/packages/cryptography",
-        "issues": "41"
-    },
-    {
-        "name": "flutter_custom_cursor",
-        "url": "https://pub.dev/packages/flutter_custom_cursor",
-        "issues": "1"
-    },
-    {
-        "name": "base58check",
-        "url": "https://pub.dev/packages/base58check",
-        "issues": "0"
-    },
-    {
-        "name": "draggable_float_widget",
-        "url": "https://pub.dev/packages/draggable_float_widget",
-        "issues": "2"
-    },
-    {
-        "name": "window_to_front",
-        "url": "https://pub.dev/packages/window_to_front",
         "issues": "0"
     },
     {
@@ -815,9 +815,9 @@
         "issues": "2"
     },
     {
-        "name": "dnd",
-        "url": "https://pub.dev/packages/dnd",
-        "issues": "4"
+        "name": "window_to_front",
+        "url": "https://pub.dev/packages/window_to_front",
+        "issues": "0"
     },
     {
         "name": "flutter_switch",
@@ -830,13 +830,13 @@
         "issues": "139"
     },
     {
-        "name": "opentracing",
-        "url": "https://pub.dev/packages/opentracing",
-        "issues": null
+        "name": "xmlstream",
+        "url": "https://pub.dev/packages/xmlstream",
+        "issues": "0"
     },
     {
-        "name": "transparent_image",
-        "url": "https://pub.dev/packages/transparent_image",
+        "name": "flutter_custom_cursor",
+        "url": "https://pub.dev/packages/flutter_custom_cursor",
         "issues": "1"
     },
     {
@@ -845,19 +845,19 @@
         "issues": "1"
     },
     {
+        "name": "transparent_image",
+        "url": "https://pub.dev/packages/transparent_image",
+        "issues": "1"
+    },
+    {
         "name": "diffutil_dart",
         "url": "https://pub.dev/packages/diffutil_dart",
         "issues": "4"
     },
     {
-        "name": "xmlstream",
-        "url": "https://pub.dev/packages/xmlstream",
-        "issues": "0"
-    },
-    {
-        "name": "cooky",
-        "url": "https://pub.dev/packages/cooky",
-        "issues": null
+        "name": "draggable_float_widget",
+        "url": "https://pub.dev/packages/draggable_float_widget",
+        "issues": "2"
     },
     {
         "name": "another_flushbar",
@@ -865,18 +865,18 @@
         "issues": "30"
     },
     {
+        "name": "keyboard_actions",
+        "url": "https://pub.dev/packages/keyboard_actions",
+        "issues": "0"
+    },
+    {
         "name": "gql_tristate_value",
         "url": "https://pub.dev/packages/gql_tristate_value",
         "issues": "59"
     },
     {
-        "name": "build_verify",
-        "url": "https://pub.dev/packages/build_verify",
-        "issues": "3"
-    },
-    {
-        "name": "keyboard_actions",
-        "url": "https://pub.dev/packages/keyboard_actions",
+        "name": "google_api_availability_platform_interface",
+        "url": "https://pub.dev/packages/google_api_availability_platform_interface",
         "issues": "0"
     },
     {
@@ -885,13 +885,23 @@
         "issues": "14"
     },
     {
-        "name": "google_api_availability_platform_interface",
-        "url": "https://pub.dev/packages/google_api_availability_platform_interface",
-        "issues": "0"
+        "name": "infinite_listview",
+        "url": "https://pub.dev/packages/infinite_listview",
+        "issues": "4"
     },
     {
         "name": "crclib",
         "url": "https://pub.dev/packages/crclib",
+        "issues": "3"
+    },
+    {
+        "name": "expandable_page_view",
+        "url": "https://pub.dev/packages/expandable_page_view",
+        "issues": "7"
+    },
+    {
+        "name": "build_verify",
+        "url": "https://pub.dev/packages/build_verify",
         "issues": "3"
     },
     {
@@ -900,19 +910,9 @@
         "issues": "5"
     },
     {
-        "name": "infinite_listview",
-        "url": "https://pub.dev/packages/infinite_listview",
-        "issues": "4"
-    },
-    {
         "name": "hex",
         "url": "https://pub.dev/packages/hex",
         "issues": "0"
-    },
-    {
-        "name": "expandable_page_view",
-        "url": "https://pub.dev/packages/expandable_page_view",
-        "issues": "7"
     },
     {
         "name": "lcov_parser",
@@ -925,14 +925,14 @@
         "issues": "17"
     },
     {
+        "name": "grinder",
+        "url": "https://pub.dev/packages/grinder",
+        "issues": "46"
+    },
+    {
         "name": "dispose_scope",
         "url": "https://pub.dev/packages/dispose_scope",
         "issues": "3"
-    },
-    {
-        "name": "flutter_portal",
-        "url": "https://pub.dev/packages/flutter_portal",
-        "issues": "0"
     },
     {
         "name": "numberpicker",
@@ -940,23 +940,8 @@
         "issues": "29"
     },
     {
-        "name": "grinder",
-        "url": "https://pub.dev/packages/grinder",
-        "issues": "46"
-    },
-    {
-        "name": "otp",
-        "url": "https://pub.dev/packages/otp",
-        "issues": "1"
-    },
-    {
-        "name": "fk_user_agent",
-        "url": "https://pub.dev/packages/fk_user_agent",
-        "issues": "5"
-    },
-    {
-        "name": "sasl_scram",
-        "url": "https://pub.dev/packages/sasl_scram",
+        "name": "flutter_portal",
+        "url": "https://pub.dev/packages/flutter_portal",
         "issues": "0"
     },
     {
@@ -965,13 +950,38 @@
         "issues": "3"
     },
     {
-        "name": "flat_buffers",
-        "url": "https://pub.dev/packages/flat_buffers",
-        "issues": "94"
-    },
-    {
         "name": "recursive_regex",
         "url": "https://pub.dev/packages/recursive_regex",
         "issues": "0"
+    },
+    {
+        "name": "rate_limiter",
+        "url": "https://pub.dev/packages/rate_limiter",
+        "issues": "1"
+    },
+    {
+        "name": "flat_buffers",
+        "url": "https://pub.dev/packages/flat_buffers",
+        "issues": "96"
+    },
+    {
+        "name": "otp",
+        "url": "https://pub.dev/packages/otp",
+        "issues": "1"
+    },
+    {
+        "name": "sasl_scram",
+        "url": "https://pub.dev/packages/sasl_scram",
+        "issues": "0"
+    },
+    {
+        "name": "fk_user_agent",
+        "url": "https://pub.dev/packages/fk_user_agent",
+        "issues": "5"
+    },
+    {
+        "name": "validators",
+        "url": "https://pub.dev/packages/validators",
+        "issues": "17"
     }
 ]
